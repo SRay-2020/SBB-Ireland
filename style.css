@@ -28,11 +28,27 @@ color: darkblue;
     color: #000;
     background-color: rgb(255, 255, 255);
     font-size: 1rem;
-    padding-left: 1.5rem;
+    /* padding-left: 1.5rem; */
+    padding-right: 2rem;
 }
 
 ul li {
+ padding-right: 25px;
  padding-left: 25px;
+}
+
+.btn {
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: rgb(121, 192, 66);
+    height: 28px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 12px;
+    margin-right: 1.6rem;
+    margin-top: 6px;
+    text-shadow: 1px 1px 2px #000000;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.25);
 }
 
 .logo-style {
@@ -47,7 +63,7 @@ transform: translate(0px, -7px);
 padding-left: 1px;
 }
 
-/* Wrapper */
+/* Hero Wrapper */
 
 .top-wrapper {
     position: relative;
@@ -69,8 +85,3 @@ padding-left: 1px;
     font-size: 14px;
 }
 
-/* 
-<img width="250" height="48" src="https://www.seebeyondborders.org/wp-content/uploads/2018/07/cropped-sbblogo-1-250x48.png" class="custom-logo" 
-alt="SeeBeyondBorders" srcset="https://www.seebeyondborders.org/wp-content/uploads/2018/07/cropped-sbblogo-1-250x48.png 250w, 
-https://www.seebeyondborders.org/wp-content/uploads/2018/07/cropped-sbblogo-1-300x57.png 300w, 
-https://www.seebeyondborders.org/wp-content/uploads/2018/07/cropped-sbblogo-1.png 392w" sizes="(max-width: 250px) 100vw, 250px"> */
