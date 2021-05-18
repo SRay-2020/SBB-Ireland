@@ -86,3 +86,51 @@ padding-left: 1px;
     font-size: 14px;
 }
 
+/* .game-container {
+display: grid;
+grid-template-columns: repeat(6, auto);
+grid-gap: 30px;   
+margin: 20px;
+justify-content: center;
+perspective: 500px;
+} */
+
+.flexbox-container {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    align-items: flex-start;
+    /* flex-wrap: wrap; *FOR MEDIA QURIE*/
+    /* align-content: space-between; *AS ABOVE*/
+}
+
+.flexbox-item {
+
+    width: 700px;
+    height: 400px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: rgb(145, 128, 160);
+text-align: center;
+color: rgb(27, 76, 85);
+font-size: 5rem;
+}
+
+.flexbox-item-1{
+min-width: 200px;
+}
+
+.flexbox-item-2{
+min-width: 200px;
+}
+
+.flexbox-item-3{
+    min-width: 200px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: lightblue;
+  }
+}
