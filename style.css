@@ -37,6 +37,11 @@ ul li {
  padding-left: 25px;
 }
 
+li a {
+    color: white;
+    text-decoration: none;
+}
+
 .btn {
 color: rgb(250, 248, 240);
 font-weight: 600;
@@ -155,7 +160,10 @@ color: rgb(15, 15, 43);
 font-size: 14px;
 }
 
-
+.footer-nums {
+    font-size: 16px;
+    padding-bottom: 1rem;
+}
 
 
 
