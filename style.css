@@ -141,6 +141,55 @@ background-color: rgb(0, 153, 204);
 
 
 
+/* GOALS SECTION */
+
+.goals-title {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(3, 62, 110);
+    font-weight: 500;
+    padding-top: 1rem;
+}
+
+
+.goals-flexbox {
+
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+}
+
+.goals-flexbox .column {
+width: 17%;
+height: 400px;
+margin: 1rem;
+/* border: 3px solid #333; */
+background-color: rgb(153, 190, 233);
+text-align: center;
+color: rgb(5, 3, 3);
+font-size: 3rem;
+padding-top: 2rem;
+padding-left: 2rem;
+padding-right: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -164,6 +213,7 @@ font-size: 14px;
     font-size: 16px;
     padding-bottom: 1rem;
 }
+
 
 
 
