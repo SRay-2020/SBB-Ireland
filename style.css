@@ -155,13 +155,15 @@ background-color: rgb(0, 153, 204);
 .goals-flexbox {
 
 display: flex;
-justify-content: space-around;
+justify-content: space-evenly;
 align-items: flex-start;
+gap: 1px;
 }
 
 .goals-flexbox .column {
+
 width: 17%;
-height: 400px;
+height: 500px;
 margin: 1rem;
 /* border: 3px solid #333; */
 background-color: rgb(153, 190, 233);
@@ -172,6 +174,29 @@ padding-top: 2rem;
 padding-left: 2rem;
 padding-right: 2rem;
 }
+
+
+
+.goal-icon {
+width: 8rem;
+height: 8rem;
+}
+
+.goal-title{
+
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: rgb(3, 62, 110);
+    text-decoration: underline;
+}
+
+.goal-paragraph {
+    padding-top: 2rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+
 
 
 
