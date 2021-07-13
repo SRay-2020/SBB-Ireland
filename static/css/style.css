@@ -76,7 +76,7 @@ position: relative;
 background-size: cover; 
 background-repeat: repeat; 
 background-color: rgba(0, 0, 0, 0); 
-background-image: url(/assets/images/banner3.jpg);
+background-image: url(/static/assets/images/banner3.jpg);
 width: 100%;
 height: 36rem;
 }
