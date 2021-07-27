@@ -403,6 +403,50 @@ padding-right: 1rem;
    
 }
 
+.media-ul li a {
+    color: rgb(3, 74, 180);
+    font-size: 20px;
+    font-weight: 700;
+   text-align: left;
+}
+
+.media-ul li {
+    padding-top: 2rem;
+    padding-left: 0px;
+    padding-right: 15px;
+    text-indent: -4px;
+}
+
+
+.media-ul {
+    /* list-style-type: none; */
+    padding-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+.media-flexbox-item {
+
+    width: 700px;
+    height: 400px;
+    margin: 10px;
+    /* border: 3px solid #333; */
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding-top: 1rem;
+}
+
+.title-video {
+    text-decoration: underline;
+}
+
+.media-icon {
+    font-size: 1.75rem;
+    color: rgb(0, 0, 0);
+}
 
 /* Footer */
 .footer-text {
