@@ -450,7 +450,7 @@ padding-right: 1rem;
 .media-flexbox-item {
 
     width: 100vh;
-    height: 600px;
+    height: 500px;
     margin: 10px;
     /* border: 3px solid #333; */
     background-color: rgb(255, 255, 255);
@@ -477,9 +477,19 @@ padding-right: 1rem;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-justify-content: space-evenly;
-padding-left: 8rem;
+justify-content: space-around;
 padding-top: 4rem;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-webkit-box-pack: justify;
+margin:0;
+overflow-x:hidden;
+align-items: center;
+-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 
@@ -492,24 +502,33 @@ width: calc(33.33% - 30px);
 display: block;
 position: relative;
 text-align: center;
-padding-bottom: 2rem;
+padding-bottom: 3rem;
 }
 
 .feature-video-single .vid-link-info {
 display: block;
 position: relative;
-width: 65%;
+width: 55%;
+margin: 0;
+display: inline-block;
 }
+
+
 
 .feature-video-single .category {
     -webkit-border-radius: 10px 10px 10px 0;
     border-radius: 10px 10px 10px 0;
 }
 
+.feature-video-single a {
+    display: inline-block;
+}
+
+
 .category {
         left: 0;
         position: absolute;
-        top: -20px;
+        top: 0px;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
         background-color: rgb(0, 69, 135);
@@ -582,7 +601,7 @@ gap: 1px;
 
 .podcast-flexbox .column {
 
-width: 22%;
+width: 30%;
 height: 440px;
 margin: 1rem;
 /* border: 3px solid #333; */
@@ -623,6 +642,20 @@ font-size: 14px;
 
 
 /* MEDIA QURIES */
+
+
+
+
+@media only screen and (max-width: 1340px) {
+
+
+.media-flexbox-item {
+    padding-left: 20%;
+}
+}
+
+
+
 
 
 
