@@ -701,8 +701,9 @@ font-size: 14px;
    
     color: #fff;
     font-size: 5.5rem;
-    text-align: center;
-    padding-top: 1rem;
+    /* text-align: center; */
+    padding-top: 2rem;
+    padding-left: 5rem;
     font-weight: 600;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
     text-transform: uppercase;
