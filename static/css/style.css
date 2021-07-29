@@ -119,6 +119,21 @@ url(/static/assets/images/banner3.jpg);
         height: 36rem;
         transform: translate( 0px, 0px);
         }
+
+
+        .top-wrapper-work {
+            position: relative;
+            background-size: cover; 
+            background-repeat: repeat; 
+            background-color: rgba(0, 0, 0, 0); 
+            /* background-image: url(/static/assets/images/mediahero1.png); */
+            background-image:
+            linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(/static/assets/images/workheroimg4.png);
+            width: 100%;
+            height: 36rem;
+            transform: translate( 0px, 0px);
+            }
     
 
 
