@@ -702,8 +702,8 @@ font-size: 14px;
     color: #fff;
     font-size: 5.5rem;
     /* text-align: center; */
-    padding-top: 2rem;
-    padding-left: 5rem;
+    padding-top: .25rem;
+    padding-left: 3rem;
     font-weight: 600;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
     text-transform: uppercase;
@@ -716,15 +716,48 @@ font-size: 14px;
     background-color: rgba(0, 0, 0, 0); 
     /* background-image: url(/static/assets/images/mediahero1.png); */
     background-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/static/assets/images/fundraisingimg2.png);
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),
+    url(/static/assets/images/fundraisingimg5.png);
+    width: 100%;
+    height: 36rem;
+    transform: translate( 0px, 0px);
+    }
+
+.section-wrapper-fund-research {
+    position: relative;
+    background-size: cover; 
+    background-repeat: repeat; 
+    background-color: rgba(0, 0, 0, 0); 
+    /* background-image: url(/static/assets/images/mediahero1.png); */
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),
+    url(/static/assets/images/researchimg3.png);
+    width: 100%;
+    height: 36rem;
+    transform: translate( 0px, 0px);
+    }
+
+.section-wrapper-fund-partnership {
+    position: relative;
+    background-size: cover; 
+    background-repeat: repeat; 
+    background-color: rgba(0, 0, 0, 0); 
+    /* background-image: url(/static/assets/images/mediahero1.png); */
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),
+    url(/static/assets/images/partnersimg1.png);
     width: 100%;
     height: 36rem;
     transform: translate( 0px, 0px);
     }
 
 
+.work-section {
 
+height: 25rem;
+width: 100%;
+background-color: rgb(221, 221, 221);
+}
 
 
 
