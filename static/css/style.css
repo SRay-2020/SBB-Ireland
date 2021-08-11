@@ -773,7 +773,9 @@ font-size: 14px;
         text-transform: uppercase;
         z-index: 1;
         border-radius: 0px 0px 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
     }
+
     .title-box-research
     {
         left: 0;
@@ -794,7 +796,9 @@ font-size: 14px;
         text-transform: uppercase;
         z-index: 1;
         border-radius: 0px 0px 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
     }
+
     .title-box-part
     {
         left: 0;
@@ -815,6 +819,7 @@ font-size: 14px;
         text-transform: uppercase;
         z-index: 1;
         border-radius: 0px 0px 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
     }
 
 
@@ -834,19 +839,57 @@ font-size: 14px;
             background-color: rgb(238, 113, 42);
         }
 
-
+/* OUR WORK BODY INFO SECTION */
 
 .work-section {
 
-height: 3rem;
+height: 1rem;
 width: 100%;
-background-color: rgb(176, 201, 224);
+background-color: rgb(255, 255, 255);
 }
 
+.research-flexbox {
+    padding-top: 12rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 1px;
+    margin-right: 0px;
+    margin-left: 0px;
+    }
 
 
+    .research-flexbox .column {
 
+        width: 25%;
+        height: 500px;
+        margin: 1rem;
+        /* border: 3px solid #333; */
+        background-color: rgba (255, 255, 255, 0.75);
+        background-color: rgba(255, 255, 255, 0.75);
+        text-align: center;
+        color: rgb(5, 3, 3);
+        font-size: 3rem;
+        padding-top: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 10px 10px 10px;
+        }
 
+.goals-flex-paragraph {
+    padding-top: 2rem;
+    color: rgb(0, 24, 59);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.goals-flex-title{
+
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
 
 
 
