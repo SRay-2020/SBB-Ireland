@@ -738,6 +738,7 @@ font-size: 14px;
     transform: translate( 0px, 0px);
     }
 
+
 .section-wrapper-partnership {
     position: relative;
     background-size: cover; 
@@ -751,6 +752,88 @@ font-size: 14px;
     height: 50rem;
     transform: translate( 0px, 0px);
     }
+
+    .title-box-fund
+    {
+        left: 0;
+        position: absolute;
+        top: 0px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-color: rgb(0, 84, 153);
+        color: #ffffff;
+        display: inline-block;
+        font-size: 5rem;
+        letter-spacing: 4px;
+        font-weight: 500;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        text-transform: uppercase;
+        z-index: 1;
+        border-radius: 0px 0px 10px;
+    }
+    .title-box-research
+    {
+        left: 0;
+        position: absolute;
+        top: 0px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-color: rgb(0, 153, 204);
+        color: #ffffff;
+        display: inline-block;
+        font-size: 5rem;
+        letter-spacing: 4px;
+        font-weight: 500;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        text-transform: uppercase;
+        z-index: 1;
+        border-radius: 0px 0px 10px;
+    }
+    .title-box-part
+    {
+        left: 0;
+        position: absolute;
+        top: 0px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-color: rgb(238, 113, 42);
+        color: #ffffff;
+        display: inline-block;
+        font-size: 5rem;
+        letter-spacing: 4px;
+        font-weight: 500;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        text-transform: uppercase;
+        z-index: 1;
+        border-radius: 0px 0px 10px;
+    }
+
+
+
+    .flexbox-item-1{
+        min-width: 200px;
+        background-color: rgb(0, 84, 153);
+        }
+        
+        .flexbox-item-2{
+        min-width: 200px;
+        background-color: rgb(0, 153, 204);
+        }
+        
+        .flexbox-item-3{
+            min-width: 200px;
+            background-color: rgb(238, 113, 42);
+        }
+
 
 
 .work-section {
