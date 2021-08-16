@@ -10,7 +10,6 @@ color: darkblue;
 color: black;
 }
 
-
 .navbar-toggler {
 color: #000;
 padding: .25rem .75rem;
@@ -307,7 +306,30 @@ color: #fff;
   }
 
 
-/* Values */
+/* MISSION */
+
+.mission-flexbox {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1px;
+    }
+
+.vertical-line {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+
+
+/* VISION */
+
+
+/* VALUES */
 
 
 
