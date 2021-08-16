@@ -316,13 +316,71 @@ color: #fff;
     gap: 1px;
     }
 
+    .mission-flexbox .icon-column {
+        width: 25%;
+        height: 300px;
+        margin: 1rem;
+        /* border: 3px solid #333; */
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        color: rgb(5, 3, 3);
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* .mission-flexbox .line-column {
+        width: 22%;
+        height: 300px;
+        margin: 1rem;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        color: rgb(5, 3, 3);
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    } */
+
+    .mission-flexbox .paragraph-column {
+        width: 30%;
+        height: 300px;
+        margin: 1rem;
+        /* border: 3px solid #333; */
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        color: rgb(5, 3, 3);
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+
 .vertical-line {
-    border-left: 6px solid green;
-    height: 500px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
+    width: 10%;
+    border-left: 6px solid rgb(31, 7, 7);
+    height: 10rem;
+    margin-left: 0px;
     top: 0;
+    height: 300px;
+    margin: 1rem;
+    /* border: 3px solid #333; */
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(5, 3, 3);
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 0rem;
+    align-content: center;
+  }
+
+  .mission-col i {
+      font-size: 12rem;
+      color: rgb(82, 9, 82);
+      padding-top: 2rem;
   }
 
 
