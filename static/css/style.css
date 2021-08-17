@@ -890,6 +890,13 @@ font-size: 14px;
         transform: translate( Opx, 5px)!important;
 }
 
+/* Overview Section */
+
+/* Map Styles and Expand */
+
+.card-body {
+    margin-bottom: 5rem;
+}
 
 /* WORK SECTIONS */
 
