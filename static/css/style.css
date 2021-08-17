@@ -886,6 +886,15 @@ font-size: 14px;
       }
 
 
+    .cam-map:hover {
+        fill: rgb(32, 58, 206);
+    }
+
+    .bls-1:hover {
+        fill: rgb(32, 58, 206);
+    }
+
+
     .work-flexbox .column {
         width: 30%;
         height: 500px;
@@ -914,14 +923,14 @@ font-size: 14px;
 }
 
 .work-flexbox .column .cam-map {
-    height: 500px;
-    width: 433px;
-    transform: translate( 0px, -56px)!important;
+    height: 290px;
+    width: 390px;
+    transform: translate( 12px, 6px)!important;
 }
 
 
 .map-extender {
-    transform: translate( 0px, -200px)!important;
+    transform: translate( 0px, 20px)!important;
 }
 
 .map-extender-ire {
