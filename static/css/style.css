@@ -10,6 +10,7 @@ color: darkblue;
 color: black;
 }
 
+
 .navbar-toggler {
 color: #000;
 padding: .25rem .75rem;
@@ -308,27 +309,46 @@ color: #fff;
 
 /* MISSION */
 
+
+
+.home-icons {
+    font-size: 4rem;
+    color: rgb(82, 9, 82);
+    padding-top: 0rem;
+}
+
+.paragraph-column p {
+    margin-bottom: 4rem;
+}
+
+.mission-para {
+    margin-bottom: 4rem!important;
+}
+
+
 .mission-flexbox {
 
-    display: flex;
+    
     justify-content: center;
-    align-items: flex-start;
     gap: 1px;
+    margin-bottom: 2rem;
+    width: 100%;
     }
 
-    .mission-flexbox .icon-column {
-        width: 25%;
+    /* .mission-flexbox .icon-column {
+        width: 20rem;
         height: 300px;
         margin: 1rem;
         /* border: 3px solid #333; */
-        background-color: rgb(255, 255, 255);
+        /* background-color: rgb(212, 111, 111);
         text-align: center;
         color: rgb(5, 3, 3);
         font-size: 1.5rem;
         padding-top: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
+        padding-left: 0;
+        padding-right: 0;
+        border-radius: 20px 20px 20px;
+    }  */
 
     /* .mission-flexbox .line-column {
         width: 22%;
@@ -344,43 +364,43 @@ color: #fff;
     } */
 
     .mission-flexbox .paragraph-column {
-        width: 30%;
-        height: 300px;
+        width: 70%;
+        height: 335px;
         margin: 1rem;
         /* border: 3px solid #333; */
         background-color: rgb(255, 255, 255);
         text-align: center;
         color: rgb(5, 3, 3);
         font-size: 1.5rem;
-        padding-top: 1rem;
+        padding-top: 0rem;
         padding-left: 1rem;
-        padding-right: 1rem;
+        padding-right: 0rem;
     }
 
 
+
 .vertical-line {
-    width: 10%;
+    width: 0rem;
     border-left: 6px solid rgb(31, 7, 7);
-    height: 10rem;
+    height: 8rem;
     margin-left: 0px;
-    top: 0;
-    height: 300px;
-    margin: 1rem;
+    margin-top: 2rem;
+    margin: 4rem;
     /* border: 3px solid #333; */
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(220, 224, 163); */
     text-align: center;
     color: rgb(5, 3, 3);
-    font-size: 1.5rem;
     padding-top: 1rem;
-    padding-left: 3rem;
+    padding-left: 0rem;
     padding-right: 0rem;
-    align-content: center;
+    position: absolute;
+    transform: translate(-56px, 102px);
   }
 
   .mission-col i {
-      font-size: 12rem;
+      font-size: 10rem;
       color: rgb(82, 9, 82);
-      padding-top: 2rem;
+      padding-top: 3rem;
   }
 
 
