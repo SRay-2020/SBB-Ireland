@@ -283,7 +283,7 @@ width: 17%;
 height: 500px;
 margin: 1rem;
 /* border: 3px solid #333; */
-background-color: #b9d0d8;
+background-color: #bae0fa;
 text-align: center;
 color: rgb(5, 3, 3);
 font-size: 3rem;
@@ -339,7 +339,7 @@ color: #fff;
 .home-icons {
     font-size: 4rem;
     color: rgb(3, 62, 110);
-    padding-top: 0rem;
+    padding-top: 1rem;
 }
 
 .paragraph-column p {
@@ -363,7 +363,7 @@ color: #fff;
 
 .vision-flexbox {
 
-    background-color: #b9d0d8;
+    background-color: #c9e6fa;
     justify-content: center;
     gap: 1px;
     margin-bottom: 2rem;
@@ -406,7 +406,7 @@ color: #fff;
         height: 335px;
         margin: 1rem;
         /* border: 3px solid #333; */
-        background-color: rgb(255, 255, 255);
+        /* background-color: #c9e6fa; */
         text-align: center;
         color: rgb(5, 3, 3);
         font-size: 1.5rem;
@@ -420,7 +420,7 @@ color: #fff;
         height: 335px;
         margin: 1rem;
         /* border: 3px solid #333; */
-        background-color: #b9d0d8;
+        background-color: #c9e6fa;
         text-align: center;
         color: rgb(5, 3, 3);
         font-size: 1.5rem;
@@ -478,8 +478,8 @@ color: #fff;
 
 
 .people-title {
-    font-size: 1.25rem;
-    font-weight: 500;
+    font-size: 1.50rem;
+    font-weight: 600;
     color: rgb(3, 62, 110);
 }
 
@@ -500,9 +500,9 @@ margin: 1rem;
 /* border: 3px solid #333; */
 background-color: rgb(255, 255, 255);
 text-align: center;
-color: rgb(5, 3, 3);
+color: rgb(8, 8, 8);
 font-size: 3rem;
-padding-top: 1rem;
+padding-top: -1rem;
 padding-left: 1rem;
 padding-right: 1rem;
 }
@@ -515,8 +515,9 @@ height: 9rem;
 
 
 .people-paragraph {
+    font-weight: 500;
     padding-top: 5px;
-    color: rgb(88, 88, 88);
+    color: rgb(27, 27, 27);
     font-size: 15px;
     padding-left: 25px;
     padding-right: 25px;
@@ -824,7 +825,7 @@ gap: 1px;
 
 .podcast-img {
     padding-top: 10px;
-    width: 50%;
+    width: 40%;
     -webkit-filter: drop-shadow(5px 5px 5px rgb(97, 96, 96));
     filter: drop-shadow(5px 5px 5px rgb(99, 98, 98));
     }
@@ -878,7 +879,7 @@ font-size: 14px;
     gap: 1px;
     height: 52rem;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(223,223,235,1) 0%, rgb(195, 219, 238) 85%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(235, 235, 245) 0%, rgb(131, 186, 231) 85%);
     }
 
     svg {
@@ -963,11 +964,14 @@ font-size: 14px;
 /* Work Overview Page  */
 
 .work-overview-text h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
     color: rgb(3, 62, 110);
     font-weight: 500;
     text-decoration: underline;
+
+
+
 }
 
 
