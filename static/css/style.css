@@ -195,6 +195,7 @@ align-items: flex-start;
     /* flex-wrap: wrap; *FOR MEDIA QURIE*/
     /* align-content: space-between; *AS ABOVE*/
 margin-top: 0rem;
+position: relative;
 }
 
 .flexbox-item {
@@ -934,12 +935,30 @@ font-size: 14px;
 
 .map-extender {
     transform: translate( 0px, 20px)!important;
+    transition: max-height 0.2s ease;
+    overflow: hidden;
+    max-height: 0;
 }
 
 .map-extender-ire {
     transform: translate( 0px, 15px)!important;
+    transition: max-height 0.2s ease;
+    /* overflow: hidden; */
+    max-height: 0;
 }
 
+.map-extender.show {
+    transition: max-height 1s ease;
+    max-height: 40rem;
+  }
+
+
+.map-extender-ire.show {
+    transition: max-height 1s ease;
+    max-height: 40rem;
+}
+
+  
 
 /* Work Overview Page  */
 
