@@ -959,6 +959,7 @@ font-size: 14px;
     background-color: #fff;
     border-radius: 15px 15px 15px 15px;
     padding: 1.5rem;
+    border:2px solid black;
 }
 
 
@@ -982,8 +983,13 @@ font-size: 14px;
 .card-body {
     margin-bottom: 5rem;
     border-radius: 15px 15px 15px 15px;
+    border:2px solid black;
 }
 
+.card-body p {
+    font-size: 1rem;
+    text-align: justify;
+}
 
 
 
