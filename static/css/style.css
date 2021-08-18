@@ -876,7 +876,7 @@ font-size: 14px;
     justify-content: center;
     align-items: flex-start;
     gap: 1px;
-    height: 45rem;
+    height: 52rem;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(223,223,235,1) 0%, rgb(195, 219, 238) 85%);
     }
@@ -921,7 +921,7 @@ font-size: 14px;
     }
 
 .work-flexbox .column .ire-map {
-    height: 300px;
+    height: 290px;
     width: 333px;
     transform: translate( -25px, -0px)!important;
 }
@@ -943,7 +943,7 @@ font-size: 14px;
 .map-extender-ire {
     transform: translate( 0px, 15px)!important;
     transition: max-height 0.2s ease;
-    /* overflow: hidden; */
+    overflow: hidden; 
     max-height: 0;
 }
 
@@ -973,7 +973,7 @@ font-size: 14px;
 
 .work-overview-text p {
 
-    font-size: 1.20rem;
+    font-size: 1.10rem;
     font-weight: 500;
     background-color: #fff;
     border-radius: 15px 15px 15px 15px;
@@ -984,14 +984,14 @@ font-size: 14px;
 
 .work-flexbox .work-overview-text {
     width: 30%;
-    height: 500px;
+    height: 25rem;
     margin: 1rem;
     font-weight: 600;
     /* border: 3px solid #333; */
     /* background-color: rgb(255, 255, 255); */
     text-align: center;
     color: rgb(5, 3, 3);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0;
@@ -1010,7 +1010,9 @@ font-size: 14px;
     text-align: justify;
 }
 
-
+.card-body h3 {
+    text-decoration: underline;
+}
 
 
 .box {
