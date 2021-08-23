@@ -255,6 +255,16 @@ background-color: rgb(0, 153, 204);
     text-decoration: underline;
 }
 
+.goal-title-layer-one {
+    font-size: 2.25rem;
+    text-align: center;
+    color: rgb(3, 62, 110);
+    font-weight: 500;
+    padding-top: 0rem;
+    /* text-decoration: underline; */
+    line-height: 5rem;
+}
+
 
 .homepage-title {
     font-size: 3rem;
@@ -301,6 +311,11 @@ width: 8rem;
 height: 8rem;
 }
 
+.goal-icon-first-layer {
+width: 12rem;
+height: 12rem;
+}
+
 .goal-title{
 
     font-size: 1.75rem;
@@ -311,8 +326,9 @@ height: 8rem;
 
 .goal-paragraph {
     padding-top: 2rem;
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
     font-size: 1rem;
+    color: rgb(3, 62, 110);
 }
 
 
@@ -330,6 +346,38 @@ color: #fff;
  .flexbox-item-3 a:hover {
     color: rgb(255, 255, 255);
   }
+
+  .goals-first-layer {
+      
+  }
+
+  .goals-second-layer {
+
+  }
+
+  .competency-col:hover .goals-second-layer {
+
+  }
+
+.competency-col:hover .goals-comp-second-layer { display: none; }  
+
+.competency-col:hover .goals-comp-first-layer {display: none; }
+
+.competency-col:hover .goals-comp-second-layer {
+    display: inline;
+}
+
+.integrity-col:hover .goals-int-second-layer { display: none; }  
+
+.integrity-col:hover .goals-int-first-layer {display: none; }
+
+.integrity-col:hover .goals-int-second-layer {
+    display: inline;
+}
+
+/* button .comment { display: none; }
+button:hover .replies { display: none; }
+button:hover .comment { display: inline; } */
 
 
 /* MISSION */
@@ -863,9 +911,15 @@ font-size: 14px;
 }
 
 .footer-nums {
-    font-size: 16px;
+    font-size: 15px;
     padding-bottom: 1rem;
 }
+
+.footer-logo img {
+    width: 16%;
+    padding-top: 1rem;
+}
+
 
 /* Our Work Page */
 
@@ -878,8 +932,8 @@ font-size: 14px;
     align-items: flex-start;
     gap: 1px;
     height: 52rem;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(235, 235, 245) 0%, rgb(131, 186, 231) 85%);
+    background: rgb(255, 255, 255);
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(235, 235, 245) 0%, rgb(131, 186, 231) 85%); */
     }
 
     svg {
@@ -976,14 +1030,14 @@ font-size: 14px;
 
 
 .work-overview-text p {
-
     font-size: 1.10rem;
     font-weight: 500;
     background-color: #fff;
     border-radius: 15px 15px 15px 15px;
     padding: 1.5rem;
-    border:2px solid black;
+    /* border:2px solid black; */
 }
+
 
 
 .work-flexbox .work-overview-text {
