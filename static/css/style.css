@@ -347,31 +347,57 @@ color: #fff;
     color: rgb(255, 255, 255);
   }
 
-  .goals-first-layer {
-      
-  }
 
-  .goals-second-layer {
+/* Competency Card */
 
-  }
+.competency-col .goals-comp-second-layer { 
+    display: none; 
+}  
 
-  .competency-col:hover .goals-second-layer {
-
-  }
-
-.competency-col:hover .goals-comp-second-layer { display: none; }  
-
-.competency-col:hover .goals-comp-first-layer {display: none; }
+.competency-col:hover .goals-comp-first-layer {
+    display: none; 
+}
 
 .competency-col:hover .goals-comp-second-layer {
     display: inline;
 }
 
-.integrity-col:hover .goals-int-second-layer { display: none; }  
+/* Integrity Card */
+.integrity-col .goals-int-second-layer { display: none; }  
 
 .integrity-col:hover .goals-int-first-layer {display: none; }
 
 .integrity-col:hover .goals-int-second-layer {
+    display: inline;
+}
+
+
+/* Changemaker Card */
+.changemaker-col .goals-change-second-layer { display: none; }  
+
+.changemaker-col:hover .goals-change-first-layer {display: none; }
+
+.changemaker-col:hover .goals-change-second-layer {
+    display: inline;
+}
+
+
+/* Courage Card */
+.courage-col .goals-courage-second-layer { display: none; }  
+
+.courage-col:hover .goals-courage-first-layer {display: none; }
+
+.courage-col:hover .goals-courage-second-layer {
+    display: inline;
+}
+
+
+/* Respect Card */
+.respect-col .goals-resp-second-layer { display: none; }  
+
+.respect-col:hover .goals-resp-first-layer {display: none; }
+
+.respect-col:hover .goals-resp-second-layer {
     display: inline;
 }
 
