@@ -621,7 +621,7 @@ height: 9rem;
 
 .donor-flexbox .column {
 
-    width: 15%;
+    width: 20%;
     height: 275px;
     margin: 1rem;
     /* background-color: rgb(112, 20, 20); */
@@ -646,17 +646,24 @@ height: 9rem;
     width: 110%;
 }
 
+.rtai-edit {
 
+    width: 240px;
+    height: 110px;
+}
 
-
-
-.alladin-edit {
-
-    width: 250px;
-    height: 250px;
+.iaid-edit {
+    transform: translate( 0px, 32px);
 }
 
 
+.cmark-edit {
+    transform: translate( -20px, -90px);
+}
+
+.fmcg-edit {
+    transform: translate( -20px, -25px);
+}
 
 /* Policy Page */
 
@@ -944,7 +951,19 @@ font-size: 14px;
 .footer-logo img {
     width: 16%;
     padding-top: 1rem;
+    display: inline;
+    justify-content: space-evenly;
 }
+
+.irish-aid-logo-foot {
+padding-right: 2rem;
+}
+
+.char-reg-logo-foot {
+    padding-left: 4rem;
+    width: 15%;
+}
+
 
 
 /* Our Work Page */
