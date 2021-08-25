@@ -171,7 +171,7 @@ url(/static/assets/images/researchimgnew2.png);
 height: 36rem; 
 background-image:
 linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-url(/static/assets/images/partnersimgnew3.png);        
+url(/static/assets/images/partnerhero1.png);        
 }            
 
 
@@ -1328,7 +1328,7 @@ background-color:  rgb(203, 208, 212);
 text-align: center;
 color: rgb(5, 3, 3);
 font-size: 3rem;
-padding-top: 2rem;
+padding-top: 0rem;
 padding-left: 2rem;
 padding-right: 2rem;
 border-radius: 10px 10px 10px;
@@ -1338,6 +1338,7 @@ font-weight: 500;
 
 .fundraising-flexbox .fundbox-1 {
 background-color:  rgb(101, 131, 214);
+color: #fff;
 }
 
 .fundraising-flexbox .fundbox-2 {
@@ -1347,18 +1348,22 @@ color: #fff;
 
 .fundraising-flexbox .fundbox-3 {
 background-color:  rgb(185, 86, 28);
+color: #fff;
 }
 
 .fundraising-flexbox .fundbox-4 {
 background-color:  rgb(226, 218, 103);
+color: #fff;
 }
 
 .fundraising-flexbox .fundbox-5 {
 background-color:  rgb(223, 124, 226);
+color: #fff;
 }
 
 .fundraising-flexbox .fundbox-6 {
 background-color:  rgb(140, 218, 109);
+color: #fff;
 }
 
 .fundraise-button {
@@ -1370,9 +1375,10 @@ background-color:  rgb(140, 218, 109);
     font-size: 2rem;
     text-align: center;
     vertical-align: middle;
-    line-height: 36px;
+    line-height: 20px;
     text-shadow: 1px 1px 2px #9ca380;
     box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.25);
+    transform: translate( 0px, -18px);
 }
 
 .fundraise-button a {
