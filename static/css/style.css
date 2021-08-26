@@ -1338,33 +1338,33 @@ font-weight: 500;
 }
 
 .fundraising-flexbox .fundbox-1 {
-background-color:  rgb(101, 131, 214);
-color: #fff;
+background-color:  #bae0fa;;
+color: rgb(0, 153, 204);
 }
 
 .fundraising-flexbox .fundbox-2 {
-background-color:  rgb(184, 142, 231);
-color: #fff;
+background-color:  #bae0fa;;
+color: rgb(0, 153, 204);
 }
 
 .fundraising-flexbox .fundbox-3 {
-background-color:  rgb(185, 86, 28);
-color: #fff;
+background-color:  #bae0fa;;
+color: rgb(0, 153, 204);
 }
 
 .fundraising-flexbox .fundbox-4 {
-background-color:  rgb(226, 218, 103);
-color: #fff;
+background-color:  #bae0fa;;
+color: rgb(0, 153, 204);
 }
 
 .fundraising-flexbox .fundbox-5 {
-background-color:  rgb(223, 124, 226);
-color: #fff;
+background-color:  #bae0fa;;
+color: rgb(0, 153, 204);
 }
 
 .fundraising-flexbox .fundbox-6 {
-background-color:  rgb(140, 218, 109);
-color: #fff;
+background-color:  #bae0fa;;
+color: rgb(0, 153, 204);
 }
 
 .fundraise-button {
@@ -1583,9 +1583,10 @@ box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.25);
 /* Irish Aid BOX */
 
     .iaid-icon {
-        width: 14rem;
-        height: 11rem;
-        padding-top: 3rem;
+        width: 15rem;
+        height: 10rem;
+        padding-top: 2rem;
+        transform: translate( 0px, 30px);
     }
 
 .partbox-2 .iaid-card-second-layer { display: none; }  
@@ -1615,7 +1616,8 @@ box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.25);
     .into-icon {
         width: 14rem;
         height: 11rem;
-        padding-top: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
     }
 
 .partbox-4 .into-card-second-layer { display: none; }  
