@@ -11,6 +11,7 @@ color: black;
 }
 
 
+
 .navbar-toggler {
 color: #000;
 padding: .25rem .75rem;
@@ -1534,34 +1535,36 @@ box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.25);
 
 
 .partnership-flexbox .partbox-1 {
-    background-color:  rgb(101, 131, 214);
+    background-color:  #bae0fa;
     color: #fff;
     }
     
     .partnership-flexbox .partbox-2 {
-    background-color:  rgb(184, 142, 231);
+    background-color:  #bae0fa;
     color: #fff;
     }
     
     .partnership-flexbox .partbox-3 {
-    background-color:  rgb(185, 86, 28);
+    background-color:  #bae0fa;
     color: #fff;
     }
     
     .partnership-flexbox .partbox-4 {
-    background-color:  rgb(226, 218, 103);
+    background-color:  #bae0fa;
     color: #fff;
     }
     
     .partnership-flexbox .partbox-5 {
-    background-color:  rgb(223, 124, 226);
+    background-color:  #bae0fa;
     color: #fff;
     }
     
     .partnership-flexbox .partbox-6 {
-    background-color:  rgb(140, 218, 109);
+    background-color:  #bae0fa;
     color: #fff;
     }
+
+
 /* CICN BOX */
 
     .cicn-icon {
@@ -1570,12 +1573,12 @@ box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.25);
         padding-top: 2rem;
     }
 
-.partnership-flexbox .cicn-card-second-layer { display: none; }  
+.partbox-1 .cicn-card-second-layer { display: none; }  
 
-.partnership-flexbox:hover .cicn-card-first-layer { display: none; }  
+.partbox-1:hover .cicn-card-first-layer { display: none; }  
 
-.partnership-flexbox:hover .cicn-card-second-layer { display: inline; }  
-
+.partbox-1:hover .cicn-card-second-layer { display: inline; }  
+ 
 
 /* Irish Aid BOX */
 
@@ -1585,17 +1588,79 @@ box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.25);
         padding-top: 3rem;
     }
 
-.partnership-flexbox .iaid-card-second-layer { display: none; }  
+.partbox-2 .iaid-card-second-layer { display: none; }  
 
-.partnership-flexbox:hover .iaid-card-first-layer { display: none; }  
+.partbox-2:hover .iaid-card-first-layer { display: none; }  
     
-.partnership-flexbox:hover .iaid-card-second-layer { display: inline; }  
+.partbox-2:hover .iaid-card-second-layer { display: inline; }  
+
+
+/* Cambodian Ministry BOX */
+
+    .cammin-icon {
+        width: 8rem;
+        height: 10rem;
+        padding-top: 0rem;
+    }
+
+.partbox-3 .cammin-card-second-layer { display: none; }  
+
+.partbox-3:hover .cammin-card-first-layer { display: none; }  
+    
+.partbox-3:hover .cammin-card-second-layer { display: inline; }  
+
+
+/* INTO BOX */
+
+    .into-icon {
+        width: 14rem;
+        height: 11rem;
+        padding-top: 2rem;
+    }
+
+.partbox-4 .into-card-second-layer { display: none; }  
+
+.partbox-4:hover .into-card-first-layer { display: none; }  
+    
+.partbox-4:hover .into-card-second-layer { display: inline; }  
+
+
+/* RTAI BOX */
+
+    .rtai-icon {
+        width: 12rem;
+        height: 9rem;
+        padding-top: 2rem;
+    }
+
+.partbox-5 .rtai-card-second-layer { display: none; }  
+
+.partbox-5:hover .rtai-card-first-layer { display: none; }  
+    
+.partbox-5:hover .rtai-card-second-layer { display: inline; }  
+
+
+/* Companies and Trust */
+
+.comptrusts-icon {
+    width: 14rem;
+    height: 11rem;
+    padding-top: 3rem;
+}
+
+.partbox-6 .comptrusts-card-second-layer { display: none; }  
+
+.partbox-6:hover .comptrusts-card-first-layer { display: none; }  
+
+.partbox-6:hover .comptrusts-card-second-layer { display: inline; }  
 
 
 
-
-
-
+.comptrusts-card-first-layer i {
+    padding-top: 3rem;
+    font-size: 5rem;
+    color: #004587;
+}
 
 
 
