@@ -1577,8 +1577,125 @@ box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.25);
 
 
 
+/*  Research Page */
 
 
+.research-flexbox {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 1px;
+    margin-right: 0px;
+    margin-left: 0px;
+    }
+
+
+.research-flexbox .column {
+    width: 20%;
+    height: 20rem;
+    margin: 1rem;
+    /* border: 3px solid #333; */
+   background-color: #bae0fa;
+    text-align: center;
+    color: rgb(5, 3, 3);
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 10px 10px 10px;
+    border: 2px solid rgb(87, 87, 87);
+    font-weight: 500;
+}
+
+        
+.partnership-flexbox {
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 1px;
+    margin-right: 0px;
+    margin-left: 0px;
+    }
+
+
+.partnership-flexbox .column {
+    width: 25%;
+    height: 18rem;
+    margin: 1rem;
+    /* border: 3px solid #333; */
+    background-color:  rgb(203, 208, 212);
+    text-align: center;
+    color: rgb(5, 3, 3);
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 10px 10px 10px;
+    border: 2px solid rgb(87, 87, 87);
+    font-weight: 500;
+}
+
+
+.res-flex-paragraph {
+    padding-top: 1rem;
+    color: rgb(0, 24, 59);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.res-flex-title{
+
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.resbox-1 .webinar-card-second-layer { display: none; }  
+
+.resbox-1:hover .webinar-card-first-layer { display: none; }  
+
+.resbox-1:hover .webinar-card-second-layer { display: inline; }  
+
+.resbox-2 .nci-card-second-layer { display: none; }  
+
+.resbox-2:hover .nci-card-first-layer { display: none; }  
+
+.resbox-2:hover .nci-card-second-layer { display: inline; }  
+
+.resbox-3 .dsai-card-second-layer { display: none; }  
+
+.resbox-3:hover .dsai-card-first-layer { display: none; }  
+
+.resbox-3:hover .dsai-card-second-layer { display: inline; }  
+
+
+.webinar-icon {
+    font-size: 6rem;
+    padding-top: 1rem;
+    transform: translate( 0px, 2px); 
+}
+
+
+.dsai-icon {
+    width: 16rem;
+    height: 10rem;
+    padding-top: 1rem;
+    transform: translate( 0px, 6px);  
+}
+
+.nci-icon {
+    width: 16rem;
+    height: 10rem;
+    padding-top: 1rem;
+    transform: translate( 0px, 15px); 
+}
 
 
 /* Partnership Page */
