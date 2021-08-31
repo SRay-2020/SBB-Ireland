@@ -539,7 +539,7 @@ button:hover .comment { display: inline; } */
 
 .mission-flexbox {
 
-    
+    background-color: #009ed6;
     justify-content: center;
     gap: 1px;
     margin-bottom: 2rem;
