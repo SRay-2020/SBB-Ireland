@@ -226,6 +226,7 @@ position: relative;
 width: 55%;
 margin: 0;
 display: inline-block;
+text-decoration: none;
 }
     
     
@@ -259,10 +260,11 @@ z-index: 1
     
 .home-video-col .media-thumbnail {
 -webkit-border-radius: 10px;
-border-radius: 10px;
+border-radius: 5px;
 margin: 20px 0;
 overflow: hidden;
 position: relative;
+width: 22rem;
 }
     
 .home-video-col .media-thumbnail .visual {
@@ -539,7 +541,6 @@ button:hover .comment { display: inline; } */
 
 .mission-flexbox {
 
-    background-color: #009ed6;
     justify-content: center;
     gap: 1px;
     margin-bottom: 2rem;
