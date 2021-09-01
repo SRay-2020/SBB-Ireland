@@ -175,6 +175,20 @@ url(/static/assets/images/partnerhero1.png);
 
 /* HOME PAGE */
 
+.home-section-main {
+    max-width: 1200px;
+    background-color: #e6e6e6;
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    border: 3px solid rgb(133, 133, 133);
+    padding: 10px;
+}
+
+.landing-background {
+    background-color: #e6e6e6;
+}
+
 .latest-news-title {
     font-size: 3rem;
     text-align: center;
@@ -189,19 +203,20 @@ url(/static/assets/images/partnerhero1.png);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center; 
     padding-top: 2rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-box-pack: justify;
-    margin:0;
+    margin:auto;
     overflow-x:hidden;
     /* align-items: center; */
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 0;
+    width: 100%;
+
 }
 
 .home-video-col {
@@ -209,12 +224,14 @@ url(/static/assets/images/partnerhero1.png);
     position: relative;
     text-align: center;
     padding-bottom: 2rem;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
 
 .home-video-row .home-video-col {
-    width: 30%;
+    width: 20rem;
 }
 
 
@@ -223,7 +240,7 @@ url(/static/assets/images/partnerhero1.png);
 .home-video-col .vid-link-info {
 display: block;
 position: relative;
-width: 55%;
+width: 15rem;
 margin: 0;
 display: inline-block;
 text-decoration: none;
@@ -260,11 +277,12 @@ z-index: 1
     
 .home-video-col .media-thumbnail {
 -webkit-border-radius: 10px;
-border-radius: 5px;
+border-radius: 0px;
 margin: 20px 0;
 overflow: hidden;
 position: relative;
-width: 22rem;
+width: 15rem;
+height: 10rem;
 }
     
 .home-video-col .media-thumbnail .visual {
@@ -875,15 +893,14 @@ padding-right: 1rem;
 
     width: 100vh;
     height: 500px;
-    margin: 10px;
-    /* border: 3px solid #333; */
-    background-color: rgb(255, 255, 255);
+    margin: auto;
+    /* border: 3px solid #333;  */
+    /* background-color: rgb(255, 255, 255); */
     text-align: center;
     color: rgb(0, 0, 0);
     font-size: 15px;
     padding-top: 1rem;
     align-content: center;
-    padding-left: 29%;
 }
 
 .title-video {
@@ -1046,6 +1063,11 @@ padding-right: 1rem;
 
 
 /* Footer */
+
+footer {
+    background-color: #b4b4b3;
+}
+
 .footer-text {
 text-align: center;
 padding-bottom: 2rem;
