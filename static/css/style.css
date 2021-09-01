@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
 /* * {
 color: rgb(0, 0, 0);
 } */
@@ -175,14 +177,74 @@ url(/static/assets/images/partnerhero1.png);
 
 /* HOME PAGE */
 
+.home-video-section {
+    background-color: white;
+    padding-bottom: 10rem;
+    padding-top: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.home-news-section {
+    background-color: rgb(196, 224, 248);
+    padding-bottom: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.home-donor-section {
+    background-color: white;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main-page-video-title {
+    font-size: 2.50rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #004587;
+    /* text-decoration: underline; */
+}
+
+.main-row {
+/* padding-top: 2rem; */
+background-color: rgb(196, 224, 248);
+width: 80%;
+padding-left: 1rem;
+padding-right: 1rem;
+display: flex;
+border-style: solid;
+border-width: 0px 8px; 
+}
+
+.main-col1 {
+    width: 20%;
+    font-size: 2.50rem;
+    font-weight: 600;
+    padding-top: 8px;
+}
+
+.main-col2 {
+width: 80%;
+font-size: 1.25rem;
+justify-content: center;
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+
+
 .home-section-main {
     max-width: 1200px;
-    background-color: #e6e6e6;
+    background-color: #ffffff;
     align-content: center;
     margin: auto;
     width: 100%;
-    border: 3px solid rgb(133, 133, 133);
-    padding: 10px;
+    padding-top: 3rem;
+    border-style: solid rgb(133, 133, 133);
+    border-width: 0px 5px; 
 }
 
 .landing-background {
@@ -190,13 +252,18 @@ url(/static/assets/images/partnerhero1.png);
 }
 
 .latest-news-title {
-    font-size: 3rem;
+    /* font-size: 3rem;
     text-align: center;
     color: rgb(3, 62, 110);
     font-weight: 500;
-    padding-top: 3rem;
-    text-decoration: underline;
-
+    text-decoration: underline; */
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2.50rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
 }
 
 .home-video-row {
@@ -298,12 +365,13 @@ line-height: 1.45833333;
 }
     
 .home-video-col .subtitle {
-color: #009ed6;
+color: #000000;
 font-size: 18px;
 font-size: 1.125rem;
 line-height: 1.38888889;
 margin: 12px 0 0;
 text-decoration: none;
+font-weight: 500;
 }
 
 
@@ -558,11 +626,13 @@ button:hover .comment { display: inline; } */
 
 
 .mission-flexbox {
-
+    margin-top: 2rem;
     justify-content: center;
     gap: 1px;
     margin-bottom: 2rem;
     width: 100%;
+   margin-right: 0;
+   margin-left: 0;
     }
 
 .vision-flexbox {
@@ -740,19 +810,25 @@ height: 9rem;
 /* Our Donors and Supporters */
 
 .donor-section-title {
-    font-size: 2.5rem;
+    /* font-size: 2.5rem;
     text-align: center;
     color: rgb(3, 62, 110);
     font-weight: 500;
     padding-top: 1rem;
-    text-decoration: underline;
+    text-decoration: underline; */
+    font-size: 2.50rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #004587;
+    padding-top: 2rem;
 }
 
 
 .donor-flexbox .column {
 
     width: 20%;
-    height: 275px;
+    height: 220px;
     margin: 1rem;
     /* background-color: rgb(112, 20, 20); */
     text-align: center;
@@ -761,6 +837,7 @@ height: 9rem;
     padding-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-bottom: 0;
     }
     
 
@@ -783,16 +860,16 @@ height: 9rem;
 }
 
 .iaid-edit {
-    transform: translate( 0px, 32px);
+    transform: translate( 5px, 20px);
 }
 
 
 .cmark-edit {
-    transform: translate( -20px, -90px);
+    transform: translate( 0px, -40px);
 }
 
 .fmcg-edit {
-    transform: translate( -20px, -25px);
+    transform: translate( 0px, 5px);
 }
 
 /* Policy Page */
@@ -1065,7 +1142,7 @@ padding-right: 1rem;
 /* Footer */
 
 footer {
-    background-color: #b4b4b3;
+    background-color: #e2e1e1;
 }
 
 .footer-text {
