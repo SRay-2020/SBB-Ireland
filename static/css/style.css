@@ -178,7 +178,7 @@ url(/static/assets/images/partnerhero1.png);
 
 .home-video-section {
     background-color: white;
-    padding-bottom: 8rem;
+    padding-bottom: 10rem;
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
@@ -420,6 +420,7 @@ font-weight: 500;
 
 .chair-section  {
     background-color: #fff;
+    padding-bottom: 1rem;
 }
 
 .chair-title {
@@ -435,7 +436,7 @@ font-weight: 500;
 .chair-row {
     display: flex;
     width: 100%;
-    height: 25rem;
+    height: 20rem;
     align-content: center;
     justify-content: space-evenly;
 }
@@ -458,6 +459,10 @@ font-weight: 500;
     text-align: center;
 }
 
+.chair-col2 p {
+    font-size: 1.25rem;
+    color: #004587;
+}
 
 /* CONTAINER 1 */
 
@@ -1024,6 +1029,7 @@ padding-right: 1rem;
 }
 
 .media-video-box {
+
    
 }
 
@@ -2189,40 +2195,23 @@ text-decoration: none;
 
 
 
-
-
-
-
-
-   
-
-    /* .courage-col .goals-courage-second-layer { display: none; }  
-
-    .courage-col:hover .goals-courage-first-layer {display: none; }
-    
-    .courage-col:hover .goals-courage-second-layer {
-        display: inline;
-    }     */
-
 /* MEDIA QURIES */
 
 
 @media only screen and (max-width: 1340px) {
 
 
-.media-flexbox-item {
+/* .media-flexbox-item {
     padding-left: 20%;
+} */
+
 }
-}
-
-
-
 
 
 
 @media only screen and (max-width: 1200px) {
   body {
-    background-color: rgb(110, 165, 133);
+    background-color: rgb(255, 255, 255);
   }
   .flexbox-container {
     display: flex;
@@ -2231,25 +2220,55 @@ text-decoration: none;
    
 }
 
+.media-video-box {
+    
+   width: 650px;
+   height: 400px;
+}
+
+.home-video-section {
+    background-color: white;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
 .flexbox-item {
 
 width: 700px;
 height: 200px;
 margin: 10px;
 border: 3px solid #333;
-background-color: rgb(131, 219, 95);
+background-color: rgb(255, 255, 255);
 text-align: center;
 color: rgb(27, 76, 85);
 font-size: 2rem;
 }
-
-
 }
+
+
+@media (min-width: 1110px)
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0; 
+    padding-left: 0; 
+}
+
+
 
 @media only screen and (max-width: 1000px) {
   body {
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
   }
+
+  .home-video-section {
+    background-color: white;
+    padding-bottom: 0rem;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .nav-link {
     color: #000;
@@ -2259,8 +2278,14 @@ font-size: 2rem;
     padding-right: 2rem;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0; 
+    padding-left: 0; 
+}
+
 
 }
+
 
 
 
@@ -2268,6 +2293,17 @@ font-size: 2rem;
   body {
     background-color: rgb(212, 153, 104);
   }
+
+  .home-video-section {
+    background-color: white;
+    padding-bottom: 4rem;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
   .flexbox-container {
     display: flex;
     /* justify-content: center; */
