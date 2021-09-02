@@ -484,6 +484,7 @@ align-items: flex-start;
     /* align-content: space-between; *AS ABOVE*/
 margin-top: 0rem;
 position: relative;
+padding-bottom: 2rem;
 }
 
 .flexbox-item {
@@ -1268,6 +1269,16 @@ padding-right: 2rem;
 
 /* Our Work Page */
 
+.work-section-main {
+    max-width: 1200px;
+    background-color: #ffffff;
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    padding-top: 0rem;
+    border-style: solid rgb(133, 133, 133);
+    border-width: 0px 5px;
+}
 
 
 .work-flexbox {
@@ -1321,14 +1332,14 @@ padding-right: 2rem;
     }
 
 .work-flexbox .column .ire-map {
-    height: 290px;
-    width: 333px;
+    height: 220px;
+    width: 250px;
     transform: translate( -25px, -0px)!important;
 }
 
 .work-flexbox .column .cam-map {
-    height: 290px;
-    width: 390px;
+    height: 240px;
+    width: 290px;
     transform: translate( 12px, 6px)!important;
 }
 
@@ -1363,20 +1374,29 @@ padding-right: 2rem;
 /* Work Overview Page  */
 
 .work-overview-text h2 {
-    font-size: 3rem;
+    /* font-size: 3rem;
     text-align: center;
     color: rgb(3, 62, 110);
     font-weight: 500;
-    text-decoration: underline;
+    text-decoration: underline; */
+    font-size: 2.50rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #004587;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    }
 }
 
 
 .work-overview-text p {
-    font-size: 1.10rem;
+    font-size: 1rem;
     font-weight: 500;
     background-color: #fff;
     border-radius: 15px 15px 15px 15px;
     padding: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
     /* border:2px solid black; */
 }
 
@@ -1400,9 +1420,13 @@ padding-right: 2rem;
 /* Map Styles and Expand */
 
 .card-body {
-    margin-bottom: 5rem;
+    margin-bottom: 0;
     border-radius: 15px 15px 15px 15px;
     border:2px solid black;
+    /* padding-bottom: 1rem; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
 }
 
 .card-body p {
@@ -1437,6 +1461,8 @@ padding-right: 2rem;
 
   .work-overview-text p {
       margin-bottom: 4rem;
+      font-size: 1rem;
+      font-family: 'Open Sans', sans-serif;
   }
 
 
@@ -2246,16 +2272,46 @@ text-align: center;
 color: rgb(27, 76, 85);
 font-size: 2rem;
 }
+
+.flexbox-item-1 {
+    min-width: 200px;
+    background-color: rgb(0, 84, 153);
+    height: 400px;
 }
 
 
-@media (min-width: 1110px)
+.flexbox-item-2 {
+    min-width: 200px;
+    background-color: rgb(0, 153, 204);
+    height: 400px;
+}
+
+
+.flexbox-item-3 {
+    min-width: 200px;
+    background-color: rgb(238, 113, 42);
+    height: 400px;
+}
+
+}
+
+
+@media (min-width: 1110px) {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0; 
     padding-left: 0; 
 }
 
-
+.work-flexbox-container {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    align-items: flex-start;
+    margin-top: 0rem;
+    position: relative;
+    padding-top: 0rem;
+}
+}
 
 @media only screen and (max-width: 1000px) {
   body {
@@ -2281,6 +2337,17 @@ font-size: 2rem;
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0; 
     padding-left: 0; 
+}
+
+
+.work-flexbox-container {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    align-items: flex-start;
+    margin-top: 6rem;
+    position: relative;
+    padding-top: 4rem;
 }
 
 
