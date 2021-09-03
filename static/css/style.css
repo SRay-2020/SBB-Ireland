@@ -977,6 +977,18 @@ height: 9rem;
 
 /* Policy Page */
 
+.policy-section-main {
+    max-width: 1200px;
+    /* background-color: #ffffff; */
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    padding-top: 2rem;
+    border-style: solid rgb(133, 133, 133);
+    border-width: 0px 5px;
+    padding-bottom: 4rem;
+}
+
 .policies-title {
     font-size: 3rem;
     text-align: center;
@@ -1012,15 +1024,14 @@ gap: 1px;
 
 .policy-flexbox .column {
 
-width: 19%;
-height: 440px;
+width: 30%;
+height: 375px;
 margin: 1rem;
 /* border: 3px solid #333; */
 background-color: rgb(255, 255, 255);
 text-align: center;
 color: rgb(5, 3, 3);
 font-size: 3rem;
-padding-top: 1rem;
 padding-left: 1rem;
 padding-right: 1rem;
 }
