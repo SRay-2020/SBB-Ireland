@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
-/* * {
-color: rgb(0, 0, 0);
-} */
+
 /* NAVBAR */
 .navbar-nav {
 color: darkblue;
@@ -1068,7 +1066,9 @@ padding-right: 1rem;
     color: rgb(0, 0, 0);
     font-size: 15px;
     padding-top: 1rem;
+    padding-bottom: 4rem;
     align-content: center;
+    margin-bottom: 4rem;
 }
 
 .title-video {
@@ -2029,20 +2029,49 @@ text-decoration: none;
 
 /* Partnership Page */
 
+.partners-section-main {
+    max-width: 1200px;
+    background-color: #ffffff;
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    padding-top: 0rem;
+    border-style: solid rgb(133, 133, 133);
+    border-width: 0px 5px;
+}
+
+.main-col3 {
+    width: 80%;
+font-size: 1.25rem;
+justify-content: center;
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+
 .partnership-main {
     background-color: rgb(255, 255, 255);
-    padding-top: 2rem;
+    padding-top: 4rem;
     padding-bottom: 2rem;
     font-size: 1.5rem;
-    font-weight: 600;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    font-weight: 500;
     text-align: center;
+    width: 100%;
 }
     
-        
+
+.parnership-title-1 {
+    font-size: 2.50rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #004587;
+    padding-bottom: 0rem;
+}
+
+
 .partnership-flexbox {
-    padding-top: 4rem;
+    padding-top: 1rem;
     padding-left: 4rem;
     padding-right: 4rem; 
     display: flex;
@@ -2055,7 +2084,7 @@ text-decoration: none;
 
 
 .partnership-flexbox .column {
-    width: 25%;
+    width: 30%;
     height: 18rem;
     margin: 1rem;
     /* border: 3px solid #333; */
@@ -2082,9 +2111,9 @@ text-decoration: none;
 
 .goals-flex-title{
 
-    font-size: 1.75rem;
-    font-weight: 500;
-    color: rgb(0, 0, 0);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #004587;
     text-decoration: underline;
 }
 
@@ -2123,8 +2152,8 @@ text-decoration: none;
 /* CICN BOX */
 
     .cicn-icon {
-        width: 14rem;
-        height: 9rem;
+        width: 15rem;
+        height: 10rem;
         padding-top: 2rem;
     }
 
@@ -2138,10 +2167,10 @@ text-decoration: none;
 /* Irish Aid BOX */
 
     .iaid-icon {
-        width: 15rem;
-        height: 10rem;
-        padding-top: 2rem;
-        transform: translate( 0px, 30px);
+        width: 20rem;
+        height: 15rem;
+        padding-top: 0rem;
+        transform: translate( -33px, -7px);
     }
 
 .partbox-2 .iaid-card-second-layer { display: none; }  
@@ -2154,9 +2183,10 @@ text-decoration: none;
 /* Cambodian Ministry BOX */
 
     .cammin-icon {
-        width: 8rem;
-        height: 10rem;
-        padding-top: 0rem;
+        width: 7rem;
+        height: 9rem;
+        /* padding-top: 1rem; */
+        margin-top: 1rem;
     }
 
 .partbox-3 .cammin-card-second-layer { display: none; }  
@@ -2169,10 +2199,10 @@ text-decoration: none;
 /* INTO BOX */
 
     .into-icon {
-        width: 14rem;
-        height: 11rem;
-        padding-top: 1rem;
-        padding-bottom: 2rem;
+        width: 13rem;
+        height: 8rem;
+        margin-top: 2rem;
+        /* padding-bottom: 1rem; */
     }
 
 .partbox-4 .into-card-second-layer { display: none; }  
@@ -2186,8 +2216,9 @@ text-decoration: none;
 
     .rtai-icon {
         width: 12rem;
-        height: 9rem;
-        padding-top: 2rem;
+        height: 8rem;
+       margin-top: 2rem;
+       transform: translate( -12px, -6px);
     }
 
 .partbox-5 .rtai-card-second-layer { display: none; }  
