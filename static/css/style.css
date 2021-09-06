@@ -454,7 +454,9 @@ font-weight: 500;
     width: 80%;
     padding-left: 3rem;
     padding-right: 3rem;
+    padding-top: 1rem;
     text-align: center;
+    font-size: 18px;
 }
 
 .chair-col2 p {
