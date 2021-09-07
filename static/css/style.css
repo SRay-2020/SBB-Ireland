@@ -473,7 +473,7 @@ padding-right: 5px;
 }
 
 .chair-col2 p {
-    font-size: 1.25rem;
+    font-size: 4.25rem;
     color: #004587;
 }
 
@@ -1233,6 +1233,23 @@ border-radius: 10px 10px 10px 0;
     margin: 12px 0 0;
     text-decoration: none;
     transform: translate( 20px, 2px);
+}
+
+/* Testimonials */
+
+.testimonials-section-main {
+    max-width: 1200px;
+    /* background-color: #ffffff; */
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    padding-top: 2rem;
+    border-style: solid rgb(133, 133, 133);
+    border-width: 0px 5px;
+}
+
+.quote-marks {
+font-size: 5rem;
 }
 
 
