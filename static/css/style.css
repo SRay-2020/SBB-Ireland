@@ -1597,6 +1597,28 @@ padding-right: 2rem;
 
 /* Work Overview Page  */
 
+.overview-page-title {
+    font-size: 2.50rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 1rem;
+    /* text-decoration: underline; */
+}
+
+.overview-main {
+    background-color: rgb(255, 255, 255);
+    padding-top: 0em;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    /* padding-left: 10rem;
+    padding-right: 10rem; */
+    text-align: center;
+    }
+
+
 .work-overview-text h2 {
     /* font-size: 3rem;
     text-align: center;
@@ -1640,6 +1662,84 @@ padding-right: 2rem;
     padding-right: 1rem;
     padding-top: 0;
 }
+
+
+
+.overview-row {
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.overview-col1 {
+    width: 20%;
+    padding-left: 1rem;
+    margin-top: 2rem;
+}
+
+.overview-col-ire {
+    width: 22%;
+    padding-left: 0rem;
+    /* padding-right: 1rem; */
+    margin-top: 6rem;
+    margin-right: 1rem;
+}
+
+.overview-col1  img {
+    margin-top: 2rem;
+    padding-left: 3rem;
+    height: 14rem;
+}
+
+.overview-col2 {
+    width: 80%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.overview-col3 {
+    width: 80%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.overview-col3 h3 {
+    /* padding-top: 1rem; */
+}
+
+.overview-col2 p {
+    font-size: 1.25rem;
+    color: #363636;
+    text-align: justify;
+}
+
+.overview-row-1 {
+    background-color: #c9e6fa;
+    justify-content: center;
+    gap: 1px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.overview-row-2 {
+    background-color: #ffffff;
+    justify-content: center;
+    gap: 1px;
+    margin-bottom: 7rem;
+}
+
+
+
 
 /* Map Styles and Expand */
 
@@ -1847,16 +1947,47 @@ background-color: rgb(255, 255, 255);
 .chart-div {
     display: flex;
     justify-content: center;
+    background-color: #bae0fa;
 }
 
 .chart-div img {
     align-content: center;
     align-items: center;
     justify-content: center;
+    margin: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 
+.impact-row {
+    padding-top: 1rem;
+    padding-left: 6rem;
+    display: flex;
+    width: 100%;
+    height: 15rem;
+    align-content: center;
+    justify-content: center;
+}
 
+.impact-col1 {
+    width: 30%;
+    /* padding-left: 2rem; */
+}
+
+.impact-col2 {
+    width: 30%;
+    /* padding-left: 1rem; */
+}
+
+.impact-col3 {
+    width: 30%;
+}
+
+.impact-col img {
+    width: 12rem;
+    height: 12rem; 
+}
 
 
 
