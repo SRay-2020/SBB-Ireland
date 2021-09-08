@@ -175,12 +175,16 @@ url(/static/assets/images/partnerhero1.png);
 /* Cookie Consent Banner */
 
 .cookie-container {
-    width: 100%;
+
+    max-width: 1200px;
+    align-content: center;
+    margin: auto;
+    border-radius: 10px;
     position: fixed;
     bottom: -200%;
     left: 0;
     right: 0;
-    background: #2e2e2e;
+    background: #5c5c5c;
     color: #fff;
     padding: 1rem 13rem;
     text-align: center;
