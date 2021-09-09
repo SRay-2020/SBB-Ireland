@@ -2579,34 +2579,86 @@ padding-bottom: 1rem;
 
 
 .partnership-flexbox .partbox-1 {
-    background-color:  #bae0fa;
+    background-color: #bae0fa;
     color: #fff;
+    box-shadow: 0 -2px 16px rgba(46, 46, 46, 0.459);
+    }
+
+.partnership-flexbox .partbox-1:hover {
+    background-color:  #f9fbfd;
+    color: rgb(0, 0, 0);
+    transition: 400ms;
+    box-shadow: 0 -2px 16px rgba(46, 46, 46, 0.459);
     }
     
     .partnership-flexbox .partbox-2 {
     background-color:  #bae0fa;
     color: #fff;
+    box-shadow: 0 -2px 16px rgba(46, 46, 46, 0.459);
+    }
+
+    .partnership-flexbox .partbox-2:hover {
+    background-color:  #f9fbfd;
+    color: rgb(0, 0, 0);
+    transition: 400ms;
+    box-shadow: 0 -2px 16px rgba(46, 46, 46, 0.459);
     }
     
     .partnership-flexbox .partbox-3 {
     background-color:  #bae0fa;
     color: #fff;
+    box-shadow: 0 -2px 16px rgba(46, 46, 46, 0.459);
     }
+
+    .partnership-flexbox .partbox-3:hover {
+        background-color:  #f9fbfd;
+        color: rgb(0, 0, 0);
+        transition: 400ms;
+        box-shadow: 0 -2px 16px rgba(46, 46, 46, 0.459);
+        }
+        
     
     .partnership-flexbox .partbox-4 {
     background-color:  #bae0fa;
     color: #fff;
+    box-shadow: 0 -2px 16px rgba(46, 46, 46, 0.459);
     }
+
+    .partnership-flexbox .partbox-4:hover {
+        background-color:  #f9fbfd;
+        color: rgb(0, 0, 0);
+        transition: 400ms;
+        box-shadow: 0 -2px 16px rgba(46, 46, 46, 0.459);
+        }
+        
     
     .partnership-flexbox .partbox-5 {
     background-color:  #bae0fa;
     color: #fff;
+    box-shadow: 0 -2px 16px rgba(46, 46, 46, 0.459);
     }
+
+    .partnership-flexbox .partbox-5:hover {
+        background-color:  #f9fbfd;
+        color: rgb(0, 0, 0);
+        transition: 400ms;
+        box-shadow: 0 -2px 16px rgba(46, 46, 46, 0.459);
+        }
+        
     
     .partnership-flexbox .partbox-6 {
     background-color:  #bae0fa;
     color: #fff;
+    box-shadow: 0 -2px 16px rgba(46, 46, 46, 0.459);
     }
+
+    .partnership-flexbox .partbox-6:hover {
+        background-color:  #f9fbfd;
+        color: rgb(0, 0, 0);
+        transition: 400ms;
+        box-shadow: 0 -2px 16px rgba(46, 46, 46, 0.459);
+        }
+        
 
 
 /* CICN BOX */
