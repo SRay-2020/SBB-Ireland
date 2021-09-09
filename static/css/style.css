@@ -1114,7 +1114,7 @@ height: 9rem;
 .policy-flexbox {
 
 display: flex;
-justify-content: center;
+/* justify-content: center; */
 align-items: flex-start;
 gap: 1px;
 }
