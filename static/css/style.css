@@ -3051,8 +3051,23 @@ padding-top: 0;
 }
 
 .cookie-container {
-max-width: 300px;
+max-width: 365px;
 border-radius: 10px 10px 0px 0px;
+padding: 0px 0px;
+font-size: 12px;
+margin: 4px 4px;
+}
+
+.cookie-btn {
+    background: rgb(160, 2, 89);
+    border: 0;
+    color: rgb(250, 248, 240);
+    padding: 0px 6px;
+    font-size: .75rem;
+    margin-bottom: 0rem;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
 }
     
 .top-wrapper {
