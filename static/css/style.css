@@ -2803,6 +2803,10 @@ padding-bottom: 1rem;
         z-index: 10;
     }
 
+    .top-wrapper {
+        height: 28rem;
+    }
+
     .media-flexbox-item {
         padding-bottom: 3rem;
         width: 100vh;
@@ -2880,7 +2884,6 @@ padding-bottom: 1rem;
 }
 
 
- 
 
 
 @media (min-width: 1110px) {
@@ -2901,9 +2904,8 @@ padding-bottom: 1rem;
 }
 
 @media screen and (max-width: 1000px) {
-  body {
-    background-color: rgb(255, 255, 255);
-  }
+
+/* Home Page */
 
   .home-video-section {
     background-color: white;
@@ -2937,36 +2939,119 @@ padding-bottom: 1rem;
     padding-top: 4rem;
 }
 
+.challenge-col img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.challenge-row {
+    height: 15rem;
+}
 
 }
 
 
+@media only screen and (max-width: 768px) {
 
+/* Home Page  */
 
-@media only screen and (max-width: 770px) {
-  body {
-    background-color: rgb(212, 153, 104);
-  }
-
-  .home-video-section {
-    background-color: white;
-    padding-bottom: 4rem;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
+.main-col1 {
+font-size: 2rem;
 }
 
+.main-col2 {
+font-size: 1rem;
+}
 
+.home-video-section {
+background-color: white;
+padding-bottom: 0rem;
+padding-top: 0;
+padding-left: 0;
+padding-right: 0;
+}
 
-  .flexbox-container {
-    display: flex;
-    /* justify-content: center; */
-    align-items: flex-start;
-    flex-wrap: wrap;
+.challenge-col img {
+width: 13rem;
+height: 13rem;
+}
+
+.top-wrapper {
+height: 25rem;
+}
+
+.mission-flexbox {
+margin-bottom: 0rem;
+}
+
+.challenge-row {
+height: 15rem;
+}
+
+.media-flexbox-item {
+width: 75vh;
+}
+
+.home-video-row {
+align-content: space-around;
+width: 99%;
+}
+
+.home-video-col .vid-link-info {
+width: 13rem;
+}
+
+.home-video-row .home-video-col {
+width: 15rem;
+}
+
+.home-video-col a {
+height: 22rem;
+}
+
+.home-video-col {
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.home-video-col .media-thumbnail {
+width: 13rem;
+height: 8rem;
+margin-bottom: 5px;
+}
+
+.home-video-col .title {
+font-size: 17px;
+}
+
+.home-video-col .subtitle {
+font-size: 1rem;
+}
+
+.chair-title {
+font-size: 2.25rem;
+}
+
+.chair-col1 img {
+padding-left: 2rem;
+height: 12rem;
+padding-top: 1rem;
+}
+
+.chair-col2 {
+padding-top: 0rem;
+font-size: 17px;
+}
+
+/* Our Work Page */
+
+.flexbox-container {
+display: flex;
+align-items: flex-start;
+flex-wrap: wrap;
 }
 
 .flexbox-item {
-
 width: 700px;
 height: 200px;
 margin: 10px;
@@ -2976,6 +3061,20 @@ text-align: center;
 color: rgb(27, 76, 85);
 font-size: 2rem;
 }
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
