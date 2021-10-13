@@ -1566,6 +1566,7 @@ padding-right: 2rem;
     padding-top: 0rem;
     border-style: solid rgb(133, 133, 133);
     border-width: 0px 5px;
+    display: flexbox;
 }
 
 
@@ -3043,6 +3044,14 @@ font-size: 17px;
 
 /* Our Work Page */
 
+.cookie-container {
+    max-width: 768px;
+}
+
+.top-wrapper-work {
+height: 25rem;
+}
+
 .flexbox-container {
 display: flex;
 align-items: flex-start;
@@ -3051,14 +3060,76 @@ flex-wrap: wrap;
 
 .flexbox-item {
 width: 700px;
-height: 200px;
+height: 500px;
 margin: 10px;
 border: 3px solid #333;
-background-color: rgb(131, 219, 95);
+/* background-color: rgb(131, 219, 95); */
 text-align: center;
 color: rgb(27, 76, 85);
 font-size: 2rem;
 }
+
+
+.overview-main {
+padding-left: 2rem;
+padding-right: 2rem;
+font-size: 1.25rem;
+}
+
+svg {
+    width: 175px;
+}
+
+.why-cambodia-title {
+    font-size: 2rem;
+    padding-right: 12rem;
+    transform: translate( 0px , 0px );
+    margin-bottom: -1rem;
+}
+
+.why-cam-paragraph {
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.in-Ireland-title {
+    font-size: 2rem!important;
+    padding-left: 12rem;
+    transform: translate( 0px , 0px );
+    margin-bottom: -1rem;
+}
+
+.overview-col-ire {
+
+padding-left: 0rem;
+margin-top: 4rem;
+margin-right: 3rem;
+}
+
+.overview-row-2 {
+margin-bottom: 2rem;
+}
+
+.in-ireland-paragraph {
+    font-size: 1rem;
+}
+
+.overview-col2 p {
+    font-size: 1rem;
+}
+
+.work-flexbox-container {
+    margin-top: 1rem;
+    padding-top: 0rem;
+}
+
+.impact-row {
+    padding-top: 1rem;
+    padding-left: 0rem;
+}
+
 }
 
 
@@ -3199,7 +3270,7 @@ padding-left: 5rem;
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
 
 /* Home Page */
 
@@ -3240,5 +3311,53 @@ margin-bottom: 12rem;
     transform: translate( 0px, 200px);
     margin-left: 2rem;
 }
+
+
+/* Our Work Page */
+
+.work-flexbox-container {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20rem;
+    position: relative;
+    padding-top: 4rem;
+}
+
+.impact-row {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 10rem;
+    margin-bottom: 15rem;
+    margin-top: 10rem;
+}
+
+.chart-div {
+    display: flex;
+    justify-content: center;
+    background-color: #bae0fa;
+}
+
+.chart-div img {
+    width: 80%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
 
 }
