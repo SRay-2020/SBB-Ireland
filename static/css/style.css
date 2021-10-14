@@ -1239,7 +1239,7 @@ padding-right: 1rem;
     padding-top: 1rem;
     padding-bottom: 0rem;
     /* align-content: center; */
-    margin-bottom: 0rem;
+    margin-bottom: 3rem;
 }
 
 .title-video {
@@ -2550,9 +2550,10 @@ padding-bottom: 1rem;
     padding-top: 4rem;
     padding-bottom: 2rem;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     width: 100%;
+    color: #363636;
 }
     
 
@@ -2562,7 +2563,7 @@ padding-bottom: 1rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #004587;
-    padding-bottom: 0rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -2825,7 +2826,7 @@ color: rgb(0, 0, 0);
 font-size: 15px;
 padding-bottom: 0rem;
 padding-bottom: 4rem;
-margin-bottom: 0rem;
+margin-bottom: 3rem;
 }
 
 .flexbox-container {
@@ -2879,7 +2880,63 @@ min-width: 200px;
 background-color: rgb(238, 113, 42);
 height: 400px;
 }
+
+
+
+
+/* Partnerships */
+
+/* CICN BOX */
+
+.cicn-icon {
+    width: 13rem;
+    height: 10rem;
+    padding-top: 3rem;
 }
+
+/* Irish Aid BOX */
+
+.iaid-icon {
+    width: 18rem;
+    height: 12rem;
+    padding-top: 0rem;
+    transform: translate( -19px, 14px);
+}
+
+/* Cambodian Ministry BOX */
+
+.cammin-icon {
+    width: 6rem;
+    height: 8rem;
+    margin-top: 2rem;
+}
+
+/* INTO BOX */
+
+.into-icon {
+    width: 10rem;
+    height: 6rem;
+    margin-top: 4rem;
+}
+
+/* RTAI BOX */
+
+.rtai-icon {
+    width: 11rem;
+    height: 5rem;
+   margin-top: 2rem;
+   transform: translate( -12px, 0px);
+}
+
+/* Companies and Trust */
+
+.comptrusts-icon {
+width: 14rem;
+height: 11rem;
+padding-top: 2rem;
+}
+
+
 }
 
 
@@ -3130,6 +3187,106 @@ margin-bottom: 2rem;
     padding-left: 0rem;
 }
 
+
+
+/* Partnerships */
+
+.partnership-main {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    font-size: 1.25rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.parnership-title-1 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* CICN BOX */
+
+.cicn-icon {
+    width: 13rem;
+    height: 10rem;
+    padding-top: 3rem;
+}
+
+/* Irish Aid BOX */
+
+.iaid-icon {
+    width: 18rem;
+    height: 12rem;
+    padding-top: 0rem;
+    transform: translate( -19px, 14px);
+}
+
+/* Cambodian Ministry BOX */
+
+.cammin-icon {
+    width: 6rem;
+    height: 8rem;
+    margin-top: 2rem;
+}
+
+/* INTO BOX */
+
+.into-icon {
+    width: 10rem;
+    height: 6rem;
+    margin-top: 4rem;
+}
+
+/* RTAI BOX */
+
+.rtai-icon {
+    width: 11rem;
+    height: 5rem;
+   margin-top: 2rem;
+   transform: translate( -12px, 0px);
+}
+
+/* Companies and Trust */
+
+.comptrusts-icon {
+width: 14rem;
+height: 11rem;
+padding-top: 2rem;
+}
+
+.partnership-flexbox {
+    padding-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+}
+
+
+.partnership-flexbox .column {
+    width: 43%;
+    height: 18rem;
+    margin: 1rem;
+    /* border: 3px solid #333; */
+    background-color: #bae0fa;
+    text-align: center;
+    color: rgb(5, 3, 3);
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 10px 10px 10px;
+    border: 2px solid rgb(87, 87, 87);
+    font-weight: 500;
+}
+
+
+.media-flexbox-item {
+    margin-bottom: 0rem;
+}
+
+
+
 }
 
 
@@ -3353,6 +3510,115 @@ margin-bottom: 12rem;
     padding-top: 1rem;
 }
 
+/* Partnerships */
+
+.top-wrapper-partnership {
+    height: 9rem;
+}
+
+.page-hero-title p {
+    font-size: 2rem;
+}
+
+.partnership-main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: .75rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.parnership-title-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.25rem;
+}
+
+/* CICN BOX */
+
+.goals-flex-paragraph {
+    padding-top: 0rem;
+    color: rgb(0, 24, 59);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.cicn-icon {
+    width: 8rem;
+    height: 7rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+/* Irish Aid BOX */
+
+.iaid-icon {
+    width: 12rem;
+    height: 7rem;
+    padding-top: 0rem;
+}
+
+/* Cambodian Ministry BOX */
+
+.cammin-icon {
+    width: 4rem;
+    height: 5rem;
+    margin-top: 1rem;
+}
+
+/* INTO BOX */
+
+.into-icon {
+    width: 3em;
+    height: 4rem;
+    margin-top: 2.5rem;
+}
+
+/* RTAI BOX */
+
+.rtai-icon {
+    width: 7rem;
+    height: 4rem;
+   margin-top: 2rem;
+   margin-left: .5rem;
+}
+
+.comptrusts-card-first-layer i {
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+
+/* Companies and Trust */
+
+.comptrusts-icon {
+width: 14rem;
+height: 11rem;
+padding-top: 2rem;
+}
+
+.partnership-flexbox {
+    padding-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+}
+
+
+.partnership-flexbox .column {
+    width: 70%;
+    height: 12rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+
+.media-flexbox-item {
+    margin-bottom: 0rem;
+}
+
+.goals-flex-title {
+    font-size: .80rem;
+}
 
 
 
