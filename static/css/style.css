@@ -3150,6 +3150,10 @@ height: 13rem;
 height: 25rem;
 }
 
+.top-wrapper-media {
+    height: 25rem;
+}
+
 
 .challenge-row {
 height: 15rem;
@@ -3522,6 +3526,22 @@ padding-top: 2rem;
 
 .test-row-2 .testimonial-col1 img {
     transform: translate( -60px, -2px);
+}
+
+/* Media Page */
+
+.media-video-row .media-video-col {
+    width: 50%;
+}
+
+.podcast-paragraph {
+    font-size: 1.125rem;
+    color: teal;
+    margin-top: 1rem;
+}
+
+.podcast-flexbox {
+    margin-bottom: 2rem;
 }
 
 
@@ -4250,6 +4270,92 @@ padding-top: 2rem;
     padding-bottom: 0rem;
     height: 26rem;
 }
+
+/* Media Page */
+
+.top-wrapper-media {
+    height: 9rem;
+}
+
+.media-section-main {
+    max-width: 320px;
+    padding-top: 0rem;
+}
+
+.media-flexbox-item {
+    padding-bottom: 3rem;
+    width: 55vh;
+}
+
+.media-video-row {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+}
+
+.media-video-col {
+    padding-bottom: 2rem;
+}
+
+.media-video-col .media-thumbnail {
+    width: 11rem;
+}
+
+
+
+.media-video-row .media-video-col {
+    width: 95%;
+}
+
+.media-video-col .title {
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: center;
+    transform: translate( 0px, 0px);
+}
+
+.media-video-col .subtitle {
+    font-size: 18px;
+    font-size: .85rem;
+    line-height: 1.3;
+    transform: translate( 0px, 0px); 
+}
+
+.podcast-paragraph {
+    font-size: 1.125rem;
+    color: teal;
+    margin-top: 1rem;
+}
+
+.podcast-flexbox {
+    margin-bottom: 0rem;
+}
+
+.donor-section-title {
+    font-size: 1.50rem;
+    padding-top: 2rem;
+}
+
+.donor-section-title-pods {
+    padding-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.podcast-flexbox .column {
+    width: 90%;
+    height: 320px;
+    padding-top: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+.podcast-paragraph {
+    font-size: .85rem;
+    margin-top: 0rem;
+}
+
+
 
 
 }
