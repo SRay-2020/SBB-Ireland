@@ -3968,6 +3968,12 @@ padding-top: 2rem;
     margin-top: 2rem;
 }
 
+
+.goals-flexbox {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
 .goals-flexbox .column {
     width: 75%;
     height: 29rem;
