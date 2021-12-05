@@ -1694,11 +1694,12 @@ padding-right: 2rem;
 }
 
 .history-title {
-    font-size: 2rem;
+    font-size: 2.50rem;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    color: #000000;
+    color: #004587;
+    /* padding-bottom: 1rem; */
     padding-top: 1rem;
 }
 
@@ -1710,7 +1711,20 @@ padding-right: 2rem;
     padding-right: 3rem;
     font-size: 1.25rem;
     color: #363636;
+    text-align: justify;
 }
+
+.history-picture {
+    
+    width: 28rem;
+    height: 21rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
 
 .overview-main {
     background-color: rgb(255, 255, 255);
