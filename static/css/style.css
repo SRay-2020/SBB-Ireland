@@ -3644,12 +3644,12 @@ margin-bottom: 0rem;
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
 
 /* Home Page */
 
 .home-section-main {
-max-width: 375px;
+max-width: 390px;
 padding-top: 0;
 }
 
@@ -3781,9 +3781,100 @@ padding-left: 5rem;
 
 /* Our Work Page */
 
+.overview-page-title {
+    font-size: 1.75rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 1rem;
+    /* text-decoration: underline; */
+}
+
+.overview-main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: .75rem;
+}
+
+.overview-row-1 {
+    background-color: #c9e6fa;
+    justify-content: center;
+    gap: 1px;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+
+.cam-map-overview {
+    display: none;
+}
+
+.why-cambodia-title {
+    font-size: 1.25rem;
+    transform: translate( 88px , 0px );
+    margin-bottom: -1rem;
+}
+
+.why-cam-paragraph {
+    font-size: .75rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.overview-col3 {
+    width: 80%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Ireland */
+
+.overview-col-ire {
+   display: none;
+}
+
+.in-Ireland-title {
+    font-size: 1.25rem!important;
+    transform: translate( 0px , 0px );
+    padding-left: 0rem;
+    margin-bottom: -1rem;
+}
+
+.overview-col2 {
+    width: 80%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 0rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.in-ireland-paragraph {
+    font-size: .75rem!important;
+}
+
+.overview-row {
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
 .top-wrapper-work {
     height: 10rem;
 }
+
+.overview-row-2 {
+    margin-bottom: -2rem;
+}
+
 
 .work-flexbox-container {
     display: flexbox;
@@ -3791,9 +3882,36 @@ padding-left: 5rem;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
-    margin-top: 20rem;
+    margin-top: 0rem;
     position: relative;
-    padding-top: 4rem;
+    padding-top: 1em;
+}
+
+.flexbox-item {
+    width: 280px;
+    height: 260px;
+    margin: 10px;
+    border: 3px solid #333;
+    /* background-color: rgb(131, 219, 95); */
+    text-align: center;
+    color: rgb(27, 76, 85);
+    font-size: 1.25rem;
+}
+
+.small-icon {
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+.fb-paragraph {
+    font-size: .75rem;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.work-flexbox-container {
+    padding-bottom: 1rem;
 }
 
 .impact-row {
@@ -3802,10 +3920,24 @@ padding-left: 5rem;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
-    padding-bottom: 10rem;
-    margin-bottom: 15rem;
-    margin-top: 10rem;
+    padding-bottom: 11rem;
+    margin-bottom: 7rem;
+    margin-top: 16rem;
 }
+
+.impact-col1 {
+    width: 54%;
+}
+
+.impact-col2 {
+    width: 54%;
+}
+
+.impact-col3 {
+    width: 54%;
+}
+
+
 
 .chart-div {
     display: flex;
