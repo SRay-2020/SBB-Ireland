@@ -1872,8 +1872,10 @@ padding-right: 2rem;
 }
 
 .overview-col2 p {
-    font-size: 1.25rem;
-    color: #363636;
+    font-size: 18px;
+    font-weight: 600;
+    /* font-size: 1.25rem;
+    color: #363636; */
     text-align: justify;
 }
 
@@ -1889,7 +1891,7 @@ padding-right: 2rem;
     background-color: #ffffff;
     justify-content: center;
     gap: 1px;
-    margin-bottom: 7rem;
+    margin-bottom: 10rem;
 }
 
 
@@ -2324,7 +2326,9 @@ color: rgb(0, 153, 204);
 
 
 .research-main {
-background-color: rgb(255, 255, 255);
+/* background-color: rgb(255, 255, 255); */
+background-color: rgb(196, 224, 248);
+width: 100%;
 padding-top: 2rem;
 padding-bottom: 2rem;
 font-size: 1.5rem;
@@ -2637,6 +2641,10 @@ width: 100%;
 transform: translate( 20px, -25px);
 }
 
+.research-video-blurb:hover {
+    text-decoration: none;
+}
+
 
 .research-webinar-title {
     /* padding-top: 3rem;
@@ -2647,10 +2655,9 @@ transform: translate( 20px, -25px);
 
 .research-webinar-title h2 {
     /* line-height: 3rem; */
-    font-size: 1rem;
     text-align: center;
-    color: rgb(0, 0, 0);
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
     /* text-decoration: underline; */
 }
 
@@ -2696,6 +2703,21 @@ padding-bottom: 1rem;
     font-weight: 400;
     color: #004587;
     padding-bottom: 1rem;
+}
+
+.irc-title {
+    padding-top: 1rem;
+}
+
+.irc-paragraph {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.irc-section img {
+    height: 160px;
+    width: 635px;
+    transform: translate( 254px, 2px);
 }
 
 
@@ -2833,8 +2855,8 @@ padding-bottom: 1rem;
 /* CICN BOX */
 
     .cicn-icon {
-        width: 15rem;
-        height: 10rem;
+        width: 13rem;
+        height: 9rem;
         padding-top: 2rem;
     }
 
@@ -2848,10 +2870,10 @@ padding-bottom: 1rem;
 /* Irish Aid BOX */
 
     .iaid-icon {
-        width: 20rem;
-        height: 15rem;
+        width: 17rem;
+        height: 13rem;
         padding-top: 0rem;
-        transform: translate( -33px, -7px);
+        transform: translate( -13px, 6px);
     }
 
 .partbox-2 .iaid-card-second-layer { display: none; }  
@@ -2864,8 +2886,8 @@ padding-bottom: 1rem;
 /* Cambodian Ministry BOX */
 
     .cammin-icon {
-        width: 7rem;
-        height: 9rem;
+        width: 6rem;
+        height: 8rem;
         /* padding-top: 1rem; */
         margin-top: 1rem;
     }
@@ -2880,9 +2902,9 @@ padding-bottom: 1rem;
 /* INTO BOX */
 
     .into-icon {
-        width: 13rem;
-        height: 8rem;
-        margin-top: 2rem;
+        width: 10rem;
+        height: 6rem;
+        margin-top: 4rem;
         /* padding-bottom: 1rem; */
     }
 
@@ -2896,10 +2918,10 @@ padding-bottom: 1rem;
 /* RTAI BOX */
 
     .rtai-icon {
-        width: 12rem;
-        height: 8rem;
-       margin-top: 2rem;
-       transform: translate( -12px, -6px);
+        width: 10rem;
+        height: 6rem;
+       margin-top: 2.5rem;
+       transform: translate( -12px, -12px);
     }
 
 .partbox-5 .rtai-card-second-layer { display: none; }  
@@ -2926,7 +2948,7 @@ padding-bottom: 1rem;
 
 
 .comptrusts-card-first-layer i {
-    padding-top: 3rem;
+    padding-top: 2.5rem;
     font-size: 5rem;
     color: #004587;
 }
