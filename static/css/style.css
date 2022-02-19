@@ -1146,6 +1146,15 @@ height: 9rem;
     transform: translate( 0px, 5px);
 }
 
+.lions-club-edit {
+    transform: translate( 80px, -10px);
+    width: 230px;
+    height: 100px;
+}
+.comhar-linn-edit {
+    transform: translate( -90px, -30px);
+}
+
 /* Policy Page */
 
 .policy-section-main {
@@ -2636,13 +2645,24 @@ font-size: 18px;
 font-size: 1.125rem;
 line-height: 1.38888889;
 margin: 12px 0 0;
-text-decoration: none;
+/* text-decoration: none; */
 width: 100%;
 transform: translate( 20px, -25px);
 }
 
+
+
+.research-video-blurb:link {
+text-decoration: none;
+}
+.research-video-blurb:visited {
+text-decoration: none;
+}
 .research-video-blurb:hover {
-    text-decoration: none;
+text-decoration: none;
+}
+.research-video-blurb:active {
+text-decoration: none;
 }
 
 
