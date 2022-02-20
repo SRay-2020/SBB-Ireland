@@ -1645,22 +1645,101 @@ font-size: 14px;
     padding-bottom: 0rem;
 }
 
-.footer-logo img {
-    width: 16%;
-    padding-top: 1rem;
-    display: inline;
-    justify-content: space-evenly;
+
+
+.footer-container {
+    position: relative;
+    display: block;
+    max-width: 1420px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.footer-item {
+/* border: 3px solid #333; */
+/* background-color: #d8d8d8; */
+}
+
+.footer-col1 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 700;
+    /* width: 30%; */
+    margin-top: 8px;
+
+}
+
+
+.footer-col2 {
+    display: inline-block;
+    vertical-align: top;
+    text-align:center;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    width: 50%;
+    padding-left: 6rem;
+}
+
+
+.footer-col3 {
+    width: 20%;
+display: inline-block;
+}
+
+
+.footer-logo-list li {
+margin: 0;
+text-align: right;
+list-style-type: none;
+padding-left: 0;
+margin-left: 0;
+} 
+
+.footer-logo-list {
+    padding-left: 0;
 }
 
 .irish-aid-logo-foot {
-padding-right: 2rem;
+width: 100%;
+margin-left: 8rem;
+transform: translate( 36px, -25px);
 }
-
+    
 .char-reg-logo-foot {
-    padding-left: 4rem;
-    width: 15%;
+width: 90%;
+margin-left: 8rem;
+margin-top: 2rem;
+transform: translate( 34px, -32px);
+} 
+    
+
+.footer-policy-list {
+    margin-left: 0;
+    padding-left: 0;
 }
 
+.footer-policy-list li {
+margin: 0;
+text-align: left;
+font-size: 1.25rem;
+list-style-type: none;
+} 
+
+.footer-policy-list li a { 
+color: #3d3d3d;
+font-weight: 700;
+}
+
+.footer-logo-container {
+display: flex;
+justify-content: center;
+}
 
 
 /* Our Work Page */
