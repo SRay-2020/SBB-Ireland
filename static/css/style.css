@@ -1358,6 +1358,17 @@ padding-left: 3rem;
 padding-right: 3rem;
 }
 
+.media-video-col p {
+    text-decoration: none;
+}
+
+
+.vid-link-info p {
+    text-decoration: none;
+}
+
+
+
 
 .media-video-row .media-video-col {
 width: 30%;
