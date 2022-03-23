@@ -3105,6 +3105,9 @@ padding-bottom: 1rem;
         /* padding-bottom: 1rem; */
     }
 
+    .nci-icon-transform {
+        transform: translate( -4px, -30px );
+    }
 .partbox-4 .into-card-second-layer { display: none; }  
 
 .partbox-4:hover .into-card-first-layer { display: none; }  
@@ -4292,6 +4295,13 @@ padding-top: 2rem;
     padding-left: 0rem;
     padding-right: 0rem;
 
+}
+
+.nci-logo-card {
+    width: 4rem;
+    height: 2rem;
+    padding-top: 0rem;
+    transform: translate( -12px, -12px);
 }
 
 
