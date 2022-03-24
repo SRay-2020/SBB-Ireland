@@ -1624,6 +1624,50 @@ padding-right: 1rem;
     margin-top: -1rem;
 }
 
+/* Contact Us  */
+
+.contact-email {
+    padding-left: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contact-email i {
+    text-align: center;
+    font-size: 4rem;
+    padding-right: 2rem;
+    padding-top: 6px;
+}
+
+.contactus-row {
+    /* padding-top: 2rem; */
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+}
+
+.contactus-col1 {
+    width: 60%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 4rem;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contactus-col2 {
+width: 40%;
+font-size: 1.25rem;
+text-align: justify;
+justify-content: center;
+padding-top: 0rem;
+padding-bottom: 1rem;
+padding-left: 4rem;
+}
+
 
 
 /* Footer */
