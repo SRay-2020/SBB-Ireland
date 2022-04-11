@@ -1650,7 +1650,7 @@ padding-right: 1rem;
 
 .contactus-col1 {
     width: 60%;
-    padding-top: 60px;
+    padding-top: 1rem;
     padding-bottom: 20px;
     padding-left: 4rem;
     text-align: justify;
@@ -1666,6 +1666,10 @@ justify-content: center;
 padding-top: 0rem;
 padding-bottom: 1rem;
 padding-left: 4rem;
+}
+
+.contact-email i {
+    transform: translate( 6px, 12px);
 }
 
 
