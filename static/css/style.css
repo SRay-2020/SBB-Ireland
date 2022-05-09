@@ -995,7 +995,7 @@ button:hover .comment { display: inline; } */
 .compliance-row {
     /* padding-top: 2rem; */
     width: 80%;
-    padding-left: 1rem;
+    padding-left: 0rem;
     padding-right: 1rem;
     display: flex;
 }
@@ -1004,10 +1004,10 @@ button:hover .comment { display: inline; } */
     width: 65%;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 4rem;
+    padding-left: 0rem;
     text-align: justify;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .compliance-col2 {
