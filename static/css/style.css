@@ -537,7 +537,7 @@ padding-right: 5px;
 /* Chairperson Message */
 
 .chair-section  {
-    background-color: #fff;
+    background-color: rgb(196, 224, 248);
     padding-bottom: 3rem;
 }
 
@@ -584,6 +584,73 @@ padding-right: 5px;
     font-size: 4.25rem;
     color: #004587;
 }
+
+/* Marathon Section */
+
+.marathon-section  {
+    background-color: #fff;
+    padding-bottom: 3rem;
+}
+
+.marathon-title {
+    font-size: 2.50rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.marathon-row {
+    display: flex;
+    width: 100%;
+    height: 9rem;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.marathon-row2 {
+    display: flex;
+    width: 100%;
+    height: 18rem;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+.marathon-col1 {
+    width: 20%;
+    padding-left: 1rem;
+}
+
+.marathon-col1  img{
+    padding-left: 3rem;
+    height: 15rem;
+    padding-top: 1rem;
+}
+
+.marathon-col2 {
+    width: 80%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.marathon-col2 p {
+    font-size: 4.25rem;
+    color: #004587;
+}
+
+.donate_link {
+    font-size: 26px;
+}
+
+/* Block Quote */
 
 blockquote {
     font-family: Georgia, serif;
