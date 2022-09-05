@@ -2039,9 +2039,7 @@ justify-content: center;
 }
 
 .history-picture1 {
-    
-    width: 19rem;
-    height: 16rem;
+    width: 75%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -2053,13 +2051,12 @@ justify-content: center;
 
 .history-picture2 {
     
-    width: 14rem;
-    height: 12rem;
+    width: 65%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
     padding-left: 2rem;
     text-align: center;
 }
