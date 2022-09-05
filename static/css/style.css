@@ -3678,6 +3678,15 @@ padding-top: 0rem;
 font-size: 17px;
 }
 
+.marathon-row2 {
+    display: none;
+}
+
+.marathon-section {
+    background-color: #fff;
+    padding-bottom: 5rem;
+}
+
 /* Our Work Page */
 
 .cookie-container {
@@ -4190,6 +4199,26 @@ padding-left: 5rem;
     /* margin-bottom: 2rem;  */
 }
 
+.marathon-row2 {
+    display: none;
+}
+
+.marathon-section {
+    background-color: #fff;
+    padding-bottom: 0rem;
+}
+
+.marathon-row {
+    display: flex;
+    width: 100%;
+    height: 28rem;
+}
+
+.chair-row {
+    display: flex;
+    width: 100%;
+    height: 31rem;
+}
 
 /* Our Work Page */
 
