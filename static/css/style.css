@@ -652,7 +652,6 @@ padding-right: 5px;
 
 /* Literacy Day */
 
-/* Marathon Section */
 
 .literacy-section  {
     background-color: #fff;
@@ -3500,6 +3499,85 @@ padding-left: 0;
 padding-right: 0;
 }
 
+
+/* Literacy Day */
+
+
+.literacy-section  {
+    background-color: #fff;
+    padding-bottom: 3rem;
+}
+
+.literacy-title {
+    font-size: 2.50rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.literacy-row {
+    display: flex;
+    width: 100%;
+    height: 68rem;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.literacy-row2 {
+    display: flex;
+    width: 100%;
+    height: 18rem;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-top: 0rem;
+}
+
+.literacy-col1 {
+    width: 20%;
+    padding-left: 1rem;
+}
+
+.literacy-col1  img{
+    padding-left: 3rem;
+    height: 15rem;
+    padding-top: 1rem;
+}
+
+.literacy-col2 {
+    width: 80%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.literacy-col2 p {
+    font-size: 4.25rem;
+    color: #004587;
+}
+
+.literacy_donate_link {
+    font-size: 26px;
+}
+
+.literacy-row2 img {
+    width: 80%;
+    align-content: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
 /* Our Work Page */
     
 .flexbox-item {
@@ -3707,7 +3785,7 @@ height: 15rem;
 }
 
 .media-flexbox-item {
-width: 75vh;
+width: 52vh;
 }
 
 .home-video-row {
@@ -3769,6 +3847,97 @@ font-size: 17px;
     background-color: #fff;
     padding-bottom: 5rem;
 }
+
+.chair-row {
+    display: flex;
+    width: 100%;
+    height: 24rem;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+
+/* Literacy Day */
+
+.literacy-section {
+height: 62rem;
+}
+
+
+.literacy-section  {
+    background-color: #fff;
+    padding-bottom: 3rem;
+}
+
+.literacy-title {
+    font-size: 2.50rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.literacy-row {
+    display: flex;
+    width: 100%;
+    height: 35rem;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.literacy-row2 {
+    display: flex;
+    width: 100%;
+    height: 18rem;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-top: 0rem;
+}
+
+.literacy-col1 {
+    width: 20%;
+    padding-left: 1rem;
+}
+
+.literacy-col1  img{
+    padding-left: 3rem;
+    height: 15rem;
+    padding-top: 1rem;
+}
+
+.literacy-col2 {
+    width: 80%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.literacy-col2 p {
+    font-size: 4.25rem;
+    color: #004587;
+}
+
+.literacy_donate_link {
+    font-size: 26px;
+}
+
+.literacy-row2 img {
+    width: 80%;
+    align-content: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
 
 /* Our Work Page */
 
@@ -3964,7 +4133,10 @@ padding-top: 2rem;
 
 .media-flexbox-item {
     margin-bottom: 0rem;
+    width: 64vh;
 }
+
+
 
 /* Research Page */
 
@@ -4002,7 +4174,7 @@ padding-top: 2rem;
 }
 
 .mission-flexbox {
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
 }
 
 .goals-flexbox .column {
@@ -4241,7 +4413,7 @@ width: 40vh;
 }
 
 .chair-section {
-    margin-bottom: 9rem;
+    margin-bottom: 0rem;
 }
 
 .chair-title {
@@ -4254,7 +4426,8 @@ display: block;
 }
 
 .chair-col1 {
-padding-left: 5rem;
+padding-left: 0rem;
+display: none;
 }
 
 .chair-col2 {
@@ -4262,7 +4435,7 @@ padding-left: 5rem;
     width: 80%;
     padding-left: 0rem;
     padding-right: 0rem;
-    margin-left: 34px;
+    margin-left: 0px;
 }
 
 
@@ -4282,6 +4455,16 @@ padding-left: 5rem;
     /* margin-bottom: 2rem;  */
 }
 
+.literacy-title {
+font-size: 1.25rem;
+}
+
+.literacy-section {
+    height: 31rem;
+}
+
+
+
 .marathon-row2 {
     display: none;
 }
@@ -4300,7 +4483,7 @@ padding-left: 5rem;
 .chair-row {
     display: flex;
     width: 100%;
-    height: 31rem;
+    height: 22rem;
 }
 
 /* Our Work Page */
@@ -5117,7 +5300,6 @@ padding-top: 2rem;
 .break-2 {
 
 }
-
 
 
 
