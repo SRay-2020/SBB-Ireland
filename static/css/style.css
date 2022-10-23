@@ -1554,6 +1554,63 @@ border-radius: 10px 10px 10px 0;
     transform: translate( 20px, 2px);
 }
 
+/* Solidarity Schools Resources */
+
+.resource-video-row-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 4rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
+    margin:0;
+    overflow-x:hidden;
+    /* align-items: center; */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+.resource-video-row-1 .resource-video-col {
+    width: 40%;
+}
+
+.resource-video-row-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 4rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
+    margin:0;
+    overflow-x:hidden;
+    /* align-items: center; */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+.resource-video-row-2 .resource-video-col {
+    width: 40%;
+}
+
+.resource-video-col {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
 /* Testimonials */
 
 .testimonials-section-main {
@@ -3825,6 +3882,20 @@ font-size: 17px;
     height: 24rem;
     align-content: center;
     justify-content: space-evenly;
+}
+
+/* Resources Page */
+
+.resource-video-row-1 .resource-video-col {
+    width: 60%;
+}
+
+.resource-video-row-2 .resource-video-col {
+    width: 60%;
+}
+
+.resource-video-row-2 {
+    padding-top: 0rem;
 }
 
 
